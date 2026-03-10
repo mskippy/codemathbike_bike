@@ -197,6 +197,7 @@ h2 {
 
 .result-table th:first-child,
 .result-table td:first-child {
+  white-space: nowrap;
   text-align: center;
   width: 50px;
 }
@@ -301,4 +302,10 @@ select {
     padding: 0.65rem 0.5rem;
     font-size: 0.95rem;
   }
+}
+
+.trailforks-embed {
+  margin: 1rem 0;
+  overflow: hidden;
+  border-radius: 12px;
 }
