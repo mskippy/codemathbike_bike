@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NSSSAA Mountain Bike League</title>
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
-  <h1>NSSSAA Mountain Bike League</h1>
-  <p>New site coming soon.</p>
+  <header>
+    <h1>NSSSAA Mountain Bike League</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+        <li><a href="info.html" class="nav-link" id="nav-info">Info</a></li>
+        <li><a href="archive/index.html" class="nav-link" id="nav-archive">Archive</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>North Shore Secondary Schools Mountain Bike League</h2>
+      <p>
+        Race information, league updates, and results for the NSSSAA Mountain Bike League.
+      </p>
+
+      <div class="button-row">
+        <a class="button-link" href="info.html">League Info</a>
+        <a class="button-link" href="archive/2025/index.html">2025 Results</a>
+        <a class="button-link secondary" href="archive/index.html">Archive</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Current Season</h2>
+      <p>Browse the 2025 league results and standings.</p>
+
+      <div class="feature-grid">
+        <a class="feature-card" href="archive/2025/division_results.html">
+          <h3>Division Results</h3>
+          <p>Full individual standings by division.</p>
+        </a>
+
+        <a class="feature-card" href="archive/2025/school_results.html">
+          <h3>School Results</h3>
+          <p>View riders grouped by school and division.</p>
+        </a>
+
+        <a class="feature-card" href="archive/2025/team_results.html">
+          <h3>Team Results</h3>
+          <p>Team standings for each division.</p>
+        </a>
+
+        <a class="feature-card" href="archive/2025/race_results.html">
+          <h3>Race Results</h3>
+          <p>Compare a selected race across all divisions.</p>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>League Information</h2>
+      <div class="card">
+        <p>
+          Visit the Info page for race details, announcements, important notes, and league updates.
+        </p>
+        <p>
+          <a class="text-link" href="info.html">Go to League Info</a>
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Archive</h2>
+      <div class="feature-grid">
+        <a class="feature-card" href="archive/index.html">
+          <h3>Season Archive</h3>
+          <p>Browse past league seasons and archived result pages.</p>
+        </a>
+
+        <a class="feature-card" href="archive/2025/index.html">
+          <h3>2025 Season</h3>
+          <p>Open the 2025 archive landing page.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NSSSAA Mountain Bike League</p>
+  </footer>
+
+  <script>
+    document.getElementById("nav-home").classList.add("active");
+  </script>
 </body>
 </html>
