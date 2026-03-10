@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("division-results-container");
 
   // Fetch division data
-  fetch("data/division_results.json")
+    fetch("../../data/division_results.json")
     .then((res) => res.json())
     .then((data) => {
       const divisions = Object.keys(data).sort();
