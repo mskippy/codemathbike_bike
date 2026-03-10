@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Results - NSSSAA MTB League</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <header>
+            <h1>NSSSAA Mountain Bike League</h1>
+            <nav class="main-nav">
+              <ul>
+                <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+                <li><a href="info.html" class="nav-link" id="nav-info">Info</a></li>
+                <li><a href="division_results.html" class="nav-link" id="nav-division">Division Results</a></li>
+                <li><a href="school_results.html" class="nav-link" id="nav-school">School Results</a></li>
+                <li><a href="team_results.html" class="nav-link" id="nav-team">Team Results</a></li>
+                <li><a href="race_results.html" class="nav-link" id="nav-race">Race Results</a></li>
+              </ul>
+            </nav>
+            
+          </header>
+          
+    </header>
+
+    <main>
+      <!-- Team Results Page -->
+      <div id="team-results">
+        <h2>Team Results</h2>
+        <div id="division-results"></div> <!-- This is where the division tables will be inserted -->
+      </div>
+
+      </main>
+    
+
+  <footer>
+    <p>&copy; 2025 NSSSAA Mountain Bike League</p>
+  </footer>
+
+  <script>
+    const path = window.location.pathname;  // Get the current page's path
+  
+    // Set the active class based on the current page
+    if (path.includes("index")) {
+      document.getElementById("nav-home").classList.add("active");
+    } else if (path.includes("division_results")) {
+      document.getElementById("nav-division").classList.add("active");
+    } else if (path.includes("school_results")) {
+      document.getElementById("nav-school").classList.add("active");
+    } else if (path.includes("team_results")) {
+      document.getElementById("nav-team").classList.add("active");
+    } else if (path.includes("race_results")) {
+      document.getElementById("nav-race").classList.add("active");
+    } else if (path.includes("info")) {
+      document.getElementById("nav-info").classList.add("active");
+    }
+  </script>
+  
+  <script src="team_results.js"></script>
+
+</body>
+</html>
