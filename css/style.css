@@ -309,3 +309,61 @@ select {
   overflow: hidden;
   border-radius: 12px;
 }
+
+.marshal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.marshal-map img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.marshal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.marshal-details {
+  margin-top: 0.5rem;
+}
+
+.marshal-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.marshal-details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Bigger arrow */
+.marshal-details summary::before {
+  content: "▸";
+  font-size: 1.4rem;
+  transition: transform 0.2s ease;
+}
+
+.marshal-details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.details-content {
+  margin-top: 0.5rem;
+}
+
+/* Mobile: stack instead of side-by-side */
+@media (max-width: 700px) {
+  .marshal-grid {
+    grid-template-columns: 1fr;
+  }
+}
