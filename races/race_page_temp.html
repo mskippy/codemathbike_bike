@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{RACE_TITLE}} | NSSSAA Mountain Bike League</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>NSSSAA Mountain Bike League</h1>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../info.html">League Info</a></li>
+          <li><a href="../../updates.html">Updates</a></li>
+          <li><a href="../../results/index.html">Results</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- PAGE INTRO -->
+      <section class="content-section">
+        <h2>{{RACE_HEADING}}</h2>
+
+        <p class="section-intro">
+          {{RACE_DESCRIPTION}}
+        </p>
+      </section>
+
+      <!-- RACE DETAILS -->
+      <section class="content-section">
+        <div class="card">
+          <h3>Race Details</h3>
+
+          <ul>
+            <li><strong>Date:</strong> {{DATE}}</li>
+            <li><strong>Location:</strong> {{LOCATION}}</li>
+            <li><strong>Registration:</strong> {{REG_TIME}}</li>
+            <li><strong>Race Start:</strong> {{START_TIME}}</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- TRAILFORKS -->
+      <section class="content-section">
+        <div class="card">
+          <h3>Trailforks Route</h3>
+
+          <div class="trailforks-embed">
+            <iframe
+              width="100%"
+              height="500"
+              frameborder="0"
+              scrolling="no"
+              src="{{TRAILFORKS_EMBED}}"
+            ></iframe>
+          </div>
+
+          <p>
+            <a href="{{TRAILFORKS_LINK}}" target="_blank" rel="noopener">
+              Open route in Trailforks
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <!-- COURSE DESCRIPTION -->
+      <section class="content-section">
+        <div class="card">
+          <h3>Course Description</h3>
+
+          <p>
+            {{COURSE_DESCRIPTION}}
+          </p>
+        </div>
+      </section>
+
+      <!-- RACE ORDER -->
+      <section class="content-section">
+        <div class="card">
+          <h3>Race Order</h3>
+
+          <table class="result-table">
+            <thead>
+              <tr>
+                <th>Start Time</th>
+                <th>Division</th>
+                <th>Laps</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {{RACE_ORDER_ROWS}}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- MARSHAL SIGNUP (REMOVE FOR RACES 5–6) -->
+      <section class="content-section">
+        <div class="card">
+          <h3>Volunteer / Marshal Signup</h3>
+
+          <div class="marshal-grid">
+            <!-- MAP -->
+            <div class="marshal-map">
+              <img
+                src="{{MAP_FILE}}"
+                alt="Marshal map showing positions on the course"
+              />
+            </div>
+
+            <!-- CONTENT -->
+            <div class="marshal-content">
+              <p>
+                {{MARSHAL_SUMMARY}}
+              </p>
+
+              <p>
+                <strong>{{MARSHAL_TIMING}}</strong>
+              </p>
+
+              <a
+                class="button-link"
+                href="{{SIGNUP_LINK}}"
+                target="_blank"
+                rel="noopener"
+              >
+                Sign Up to Marshal
+              </a>
+
+              <div class="marshal-info">
+                {{MARSHAL_DETAILS}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADDITIONAL NOTES -->
+      <section class="content-section">
+        <div class="card">
+          <h3>Additional Notes</h3>
+
+          <ul>
+            {{NOTES_LIST}}
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 NSSSAA Mountain Bike League</p>
+    </footer>
+  </body>
+</html>
