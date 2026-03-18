@@ -21,136 +21,200 @@
       </nav>
     </header>
 
-    <main>
-      <!-- PAGE INTRO -->
-      <section class="content-section">
-        <h2>Race #3 Fromme XC</h2>
-
-        <p class="section-intro">
-          {{RACE_DESCRIPTION}}
-        </p>
-      </section>
-
-      <!-- RACE DETAILS -->
-      <section class="content-section">
+    <main class="race-page-layout">
+      <!-- LEFT RAIL -->
+      <aside class="race-side-nav">
         <div class="card">
-          <h3>Race Details</h3>
-
+          <h3>On This Page</h3>
           <ul>
-            <li><strong>Date:</strong> {{DATE}}</li>
-            <li><strong>Location:</strong> {{LOCATION}}</li>
-            <li><strong>Registration:</strong> {{REG_TIME}}</li>
-            <li><strong>Race Start:</strong> {{START_TIME}}</li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#course">Course</a></li>
+            <li><a href="#notes">Race Notes</a></li>
+            <li><a href="#marshal">Marshal Info</a></li>
           </ul>
         </div>
-      </section>
+      </aside>
 
-      <!-- TRAILFORKS -->
-      <section class="content-section">
-        <div class="card">
-          <h3>Trailforks Route</h3>
+      <!-- MAIN CONTENT -->
+      <div class="race-main-content">
+        <section class="content-section" id="overview">
+          <h2>Race #3 – Fromme XC</h2>
 
-          <div class="trailforks-embed">
+          <div class="card">
+            <p class="section-intro">
+              Race #3 of the NSSSAA Mountain Bike League season takes place on Fromme.
+            </p>
+
+            <ul>
+              <li><strong>Date:</strong> Wednesday, April 22nd</li>
+              <li><strong>Location:</strong> Mt. Fromme</li>
+              <li><strong>Registration Location:</strong> Water Towers/Gate - Fromme</li>
+              <li>
+                <strong>Parking:</strong> 
+                <ul>
+                  <li><a href="#https://maps.app.goo.gl/Q7aTC7uHPapcW8Xj6">Mt. Fromme Parking Lot</a></li>
+                  <li><a href="https://maps.app.goo.gl/KzMWEoHGywJMJdgLA">Coleman Street</a></li>
+                  
+                  <li>Please be aware of any parking restrictions in the area. No parking on Mountain Highway</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card" id="schedule">
+          <h3>Race Day Schedule</h3>
+          <p>Riders can pre-ride the course anytime before registration.</p>
+
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Division</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3:00</td>
+                <td>Registration</td>
+                
+              </tr>
+              <tr>
+                <td>3:30 PM</td>
+                <td>Junior (10s) Boys / Girls</td>
+                
+              </tr>
+              <tr>
+                <td>3:40 PM</td>
+                <td>Senior (11s/12s) Boys / Girls</td>
+                
+              </tr>
+              <tr>
+                <td>4:00 PM</td>
+                <td>Juvenile (9s) Boys / Girls</td>
+                
+              </tr>
+              <tr>
+                <td>4:10 PM</td>
+                <td>Bantam (8s) Boys / Girls</td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="content-section" id="course">
+          <div class="card">
+            <h3>Race Description</h3>
+            <p>
+                Riders will complete laps of the Upper Fromme trail network, starting and finishing
+                near the Water Towers. The course will include a mix of technical and flowy sections,
+                with some climbing and descending. Riders should be prepared for a challenging but
+                fun course that showcases the best of Fromme’s trails.
+            </p>
+
+            <div class="trailforks-embed">
+            <h3>Grade 8/9 Course Map</h3>
+              <iframe
+                width="100%"
+                height="500"
+                frameborder="0"
+                scrolling="no"
+                src="https://www.trailforks.com/widgets/route/?id=65809&w=100%&h=500px&activitytype=1&map=1&elevation=1&trails=1&details=1&s=0&units=metric&basicmap=1"
+              ></iframe>
+            </div>
+
+            <p>
+              <a
+                href="https://www.trailforks.com/route/nsssaa-2026-race-3-fromme-xc-gr-8-9/"
+                target="_blank"
+                rel="noopener"
+              >
+                Open route in Trailforks
+              </a>
+            </p>
+            <br>
+            <h3>Grade 10/11/12 Course Map</h3>
             <iframe
               width="100%"
               height="500"
               frameborder="0"
               scrolling="no"
-              src="{{TRAILFORKS_EMBED}}"
+              src="https://www.trailforks.com/widgets/route/?id=65809&w=100%&h=500px&activitytype=1&map=1&elevation=1&trails=1&details=1&s=0&units=metric&basicmap=1"
             ></iframe>
-          </div>
+          
 
           <p>
-            <a href="{{TRAILFORKS_LINK}}" target="_blank" rel="noopener">
+            <a
+              href="https://www.trailforks.com/widgets/route/?id=65810&w=100%&h=500px&activitytype=1&map=1&elevation=1&trails=1&details=1&s=0&units=metric&basicmap=1"
+              target="_blank"
+              rel="noopener"
+            >
               Open route in Trailforks
             </a>
           </p>
-        </div>
-      </section>
+          </div>
+        </section>
 
-      <!-- COURSE DESCRIPTION -->
-      <section class="content-section">
-        <div class="card">
-          <h3>Course Description</h3>
 
-          <p>
-            {{COURSE_DESCRIPTION}}
-          </p>
-        </div>
-      </section>
 
-      <!-- RACE ORDER -->
-      <section class="content-section">
-        <div class="card">
-          <h3>Race Order</h3>
+        <section class="content-section" id="marshal">
+          <div class="card">
+            <h3>Marshal Information</h3>
 
-          <table class="result-table">
-            <thead>
-              <tr>
-                <th>Start Time</th>
-                <th>Division</th>
-                <th>Laps</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {{RACE_ORDER_ROWS}}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <!-- MARSHAL SIGNUP (REMOVE FOR RACES 5–6) -->
-      <section class="content-section">
-        <div class="card">
-          <h3>Volunteer / Marshal Signup</h3>
-
-          <div class="marshal-grid">
-            <!-- MAP -->
-            <div class="marshal-map">
-              <img
-                src="{{MAP_FILE}}"
-                alt="Marshal map showing positions on the course"
-              />
-            </div>
-
-            <!-- CONTENT -->
-            <div class="marshal-content">
-              <p>
-                {{MARSHAL_SUMMARY}}
-              </p>
-
-              <p>
-                <strong>{{MARSHAL_TIMING}}</strong>
-              </p>
-
-              <a
+            <div class="marshal-grid">
+              <div class="marshal-map">
+                <img
+                  src="race3_marshal_map.png"
+                  alt="Marshal map showing positions on the course"
+                />
+                
+                <a
                 class="button-link"
-                href="{{SIGNUP_LINK}}"
+                href="[INSERT SIGNUP GENIUS LINK HERE]"
                 target="_blank"
                 rel="noopener"
               >
                 Sign Up to Marshal
               </a>
+              </div>
 
-              <div class="marshal-info">
-                {{MARSHAL_DETAILS}}
+              <div class="marshal-content">
+                <p>
+                  We are looking for course marshals to help support race day. Marshals help
+                  direct riders, support safe trail access, and assist with course signage.
+                </p>
+
+                <p>
+                  <strong>Please arrive early to check in and collect your marshal package.</strong><br />
+                  Races start at 3:30 PM.
+                </p>
+
+
+                <div class="marshal-info">
+                  <p><strong>What you’ll do:</strong></p>
+                  <ul>
+                    <li>Help maintain safe trail access for public users</li>
+                    <li>Let trail users know a race is in progress</li>
+                    <li>Direct riders along the course</li>
+                    <li>Assist with course signage at the end of the race</li>
+                  </ul>
+
+                  <p><strong>What to bring:</strong></p>
+                  <ul>
+                    <li>A bike to reach your marshal location</li>
+                    <li>A small pack for carrying signage</li>
+                    <li>Weather-appropriate clothing</li>
+                    <li>Phone - your number will be used for race day communication</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- ADDITIONAL NOTES -->
-      <section class="content-section">
-        <div class="card">
-          <h3>Additional Notes</h3>
-
-          <ul>
-            {{NOTES_LIST}}
-          </ul>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer>
