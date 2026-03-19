@@ -3,9 +3,9 @@
 ========================= */
 
 body {
-  font-family: "Segoe UI", Roboto, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
   background-color: #f7f9fa;
   color: #333;
 }
@@ -27,9 +27,9 @@ h1 {
 }
 
 h2 {
-  color: #2a5d3f;
   margin-bottom: 1rem;
   padding-bottom: 0.3rem;
+  color: #2a5d3f;
   border-bottom: 2px solid #ccc;
 }
 
@@ -39,20 +39,20 @@ h2 {
 
 header,
 footer {
-  background-color: #2e2e2e;
-  color: white;
-  text-align: center;
   padding: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: #2e2e2e;
 }
 
 .main-nav ul {
-  list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
   margin: 0.75rem 0 0;
   padding: 0;
+  list-style: none;
 }
 
 .main-nav a,
@@ -67,13 +67,13 @@ footer {
 }
 
 /* =========================
-   Layout / Common Components
+   Common Components
 ========================= */
 
 .card {
-  background: #fff;
-  padding: 1.2rem;
   margin-bottom: 1rem;
+  padding: 1.2rem;
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
@@ -94,47 +94,13 @@ footer {
 }
 
 .notice {
-  background-color: #e9ecef;
-  color: #333;
-  text-align: center;
   padding: 0.75rem;
-  font-weight: bold;
   font-size: 1.1rem;
-  border-bottom: 1px solid #ccc;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
-}
-
-.feature-card {
-  display: block;
-  background: #fff;
+  font-weight: bold;
+  text-align: center;
   color: #333;
-  text-decoration: none;
-  padding: 1.25rem;
-  border: 1px solid #e4e7ea;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.feature-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-}
-
-.feature-card h3 {
-  margin-top: 0;
-  color: #2a5d3f;
+  background-color: #e9ecef;
+  border-bottom: 1px solid #ccc;
 }
 
 .site-intro {
@@ -165,13 +131,51 @@ footer {
 }
 
 /* =========================
+   Layout / Grids
+========================= */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.feature-card {
+  display: block;
+  padding: 1.25rem;
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #e4e7ea;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  color: #2a5d3f;
+}
+
+/* =========================
    Buttons
 ========================= */
 
 .button-row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 0.75rem;
 }
 
@@ -182,10 +186,10 @@ footer {
 .button-link {
   display: inline-block;
   padding: 0.75rem 1.1rem;
-  background-color: #2a5d3f;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+  background-color: #2a5d3f;
   border-radius: 8px;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
@@ -196,8 +200,8 @@ footer {
 }
 
 .button-link.secondary {
-  background-color: #e9ecef;
   color: #333;
+  background-color: #e9ecef;
 }
 
 /* =========================
@@ -226,8 +230,8 @@ footer {
 
 .result-table th,
 .schedule-table th {
-  background-color: #f4f4f4;
   font-weight: bold;
+  background-color: #f4f4f4;
 }
 
 .result-table th,
@@ -247,8 +251,8 @@ footer {
 .result-table th:first-child,
 .result-table td:first-child {
   width: 50px;
-  white-space: nowrap;
   text-align: center;
+  white-space: nowrap;
 }
 
 .schedule-table a {
@@ -272,10 +276,10 @@ select {
 ========================= */
 
 .update-post {
-  padding: 1em;
   margin-bottom: 2em;
-  border-left: 4px solid #444;
+  padding: 1em;
   background-color: #f8f8f8;
+  border-left: 4px solid #444;
   border-radius: 8px;
 }
 
@@ -284,9 +288,9 @@ select {
 }
 
 .update-date {
-  color: #666;
-  font-size: 0.95rem;
   margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: #666;
 }
 
 .school-name {
@@ -294,6 +298,34 @@ select {
   margin-top: 2px;
   font-size: 0.85rem;
   color: #666;
+}
+
+/* =========================
+   Sidebar Navigation
+========================= */
+
+.side-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.side-nav li {
+  margin-bottom: 0.6rem;
+}
+
+.side-nav a {
+  color: #2a5d3f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.side-nav a:hover {
+  text-decoration: underline;
+}
+
+.side-nav a.active-race {
+  color: #ff6347;
 }
 
 /* =========================
@@ -323,9 +355,9 @@ select {
 }
 
 .race-side-nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .race-side-nav li {
@@ -347,13 +379,23 @@ select {
 }
 
 .race-header-list {
-  list-style: none;
-  padding-left: 0;
   margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .race-header-list li {
   margin-bottom: 0.6rem;
+}
+
+.race-main-content h4,
+.marshal-content h4 {
+  margin-bottom: 0.3rem;
+}
+
+.race-main-content ul,
+.marshal-content ul {
+  margin-top: 0.2rem;
 }
 
 .trailforks-embed {
@@ -373,6 +415,12 @@ select {
   width: 100%;
   border: 1px solid #ddd;
   border-radius: 10px;
+}
+
+.marshal-map .button-link {
+  display: block;
+  width: fit-content;
+  margin-top: 1rem;
 }
 
 .marshal-content {
@@ -413,21 +461,47 @@ select {
 }
 
 /* =========================
+   Generic Sidebar Layout
+========================= */
+
+.page-with-sidebar {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-content {
+  min-width: 0;
+}
+
+.left-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  align-self: start;
+}
+
+/* =========================
    Responsive
 ========================= */
 
 @media (max-width: 900px) {
-  .race-page-layout {
+  .race-page-layout,
+  .page-with-sidebar {
     grid-template-columns: 1fr;
   }
 
-  .race-side-nav {
+  .race-side-nav,
+  .left-sidebar {
     position: static;
   }
 }
 
 @media (max-width: 700px) {
-  main {
+  main,
+  .page-with-sidebar {
     padding: 1rem;
   }
 
@@ -462,20 +536,3 @@ select {
     grid-template-columns: 1fr;
   }
 }
-
-.marshal-content h4,
-.race-main-content h4 {
-  margin-bottom: 0.3rem;
-}
-
-.marshal-content ul,
-.race-main-content ul {
-  margin-top: 0.2rem;
-}
-
-.marshal-map .button-link {
-  display: block;
-  margin-top: 1rem;
-  width: fit-content;
-}
-
