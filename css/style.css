@@ -472,3 +472,10 @@ select {
 .race-main-content ul {
   margin-top: 0.2rem;
 }
+
+.marshal-map .button-link {
+  display: block;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
