@@ -35,7 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
             </thead>
             <tbody>`;
 
-          data.riders[key].slice(0, 3).forEach((rider, index) => {
+            [...data.riders[key]]
+            .sort((a, b) => Number(b.points) - Number(a.points))
+            .slice(0, 3)
+            .forEach((rider, index) => {
             riderTable += `
               <tr>
                 <td>${index + 1}</td>
