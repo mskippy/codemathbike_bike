@@ -113,39 +113,7 @@
         "points": 80
       }
     ],
-    "Bant Girls": [
-      {
-        "name": "Bella Gomes",
-        "school": "Coast Mtn",
-        "points": 0
-      },
-      {
-        "name": "Mackenzie Velaniskis",
-        "school": "Coast Mtn",
-        "points": 0
-      },
-      {
-        "name": "Lene Lok",
-        "school": "Don Ross",
-        "points": 0
-      },
-      {
-        "name": "Jaime Kranz",
-        "school": "Don Ross",
-        "points": 0
-      },
-      {
-        "name": "Pippa Shore",
-        "school": "Don Ross",
-        "points": 0
-      }
-    ],
     "Jr Boys": [
-      {
-        "name": "Oscar Goldsmith",
-        "school": "Alcuin College",
-        "points": 0
-      },
       {
         "name": "Emanuel Arreaga",
         "school": "Argyle",
@@ -163,6 +131,11 @@
       },
       {
         "name": "Liam Leaver",
+        "school": "Argyle",
+        "points": 0
+      },
+      {
+        "name": "Noah Cullingworth",
         "school": "Argyle",
         "points": 0
       }
@@ -277,11 +250,6 @@
     ],
     "Sr Girls": [
       {
-        "name": "Elle Kritter",
-        "school": "Alcuin College",
-        "points": 0
-      },
-      {
         "name": "Bronwyn Samis",
         "school": "Argyle",
         "points": 0
@@ -299,6 +267,38 @@
       {
         "name": "Jasmine Macpherson",
         "school": "Carson",
+        "points": 0
+      },
+      {
+        "name": "Sophie Schiman",
+        "school": "Carson",
+        "points": 0
+      }
+    ],
+    "Bant Girls": [
+      {
+        "name": "Bella Gomes",
+        "school": "Coast Mtn",
+        "points": 0
+      },
+      {
+        "name": "Mackenzie Velaniskis",
+        "school": "Coast Mtn",
+        "points": 0
+      },
+      {
+        "name": "Lene Lok",
+        "school": "Don Ross",
+        "points": 0
+      },
+      {
+        "name": "Jaime Kranz",
+        "school": "Don Ross",
+        "points": 0
+      },
+      {
+        "name": "Pippa Shore",
+        "school": "Don Ross",
         "points": 0
       }
     ]
