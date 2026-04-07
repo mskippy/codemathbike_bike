@@ -2,28 +2,49 @@
   "Sr Boys": [],
   "Jr Boys": [],
   "Jr/Sr Girls": [],
-  "Bant/Juv Girls": [],
+  "Bant/Juv Girls": [
+    {
+      "School": "Coast Mtn",
+      "Race1": 0.0,
+      "Race2": 80.0,
+      "Race3": 0.0,
+      "Race4": 0.0,
+      "Race5": 0.0,
+      "Race6": 0.0,
+      "Total": 80
+    }
+  ],
   "Juv Boys": [],
   "Bant Boys": [
     {
       "School": "Argyle",
       "Race1": 265.0,
-      "Race2": "",
+      "Race2": 237.0,
       "Race3": "",
       "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 265
+      "Total": 502
     },
     {
       "School": "Coast Mtn",
       "Race1": 182.0,
-      "Race2": "",
+      "Race2": 207.0,
       "Race3": "",
       "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 182
+      "Total": 389
+    },
+    {
+      "School": "Pemberton",
+      "Race1": 143.0,
+      "Race2": 113.0,
+      "Race3": 0.0,
+      "Race4": 0.0,
+      "Race5": 0.0,
+      "Race6": 0.0,
+      "Total": 256
     },
     {
       "School": "Handsworth",
@@ -46,16 +67,6 @@
       "Total": 146
     },
     {
-      "School": "Pemberton",
-      "Race1": 143.0,
-      "Race2": 0.0,
-      "Race3": 0.0,
-      "Race4": 0.0,
-      "Race5": 0.0,
-      "Race6": 0.0,
-      "Total": 143
-    },
-    {
       "School": "St. Georges",
       "Race1": 137.0,
       "Race2": "",
@@ -68,12 +79,32 @@
     {
       "School": "Elphinstone",
       "Race1": 110.0,
-      "Race2": 0.0,
+      "Race2": "",
       "Race3": 0.0,
       "Race4": 0.0,
       "Race5": 0.0,
       "Race6": 0.0,
       "Total": 110
+    },
+    {
+      "School": "Whistler",
+      "Race1": "",
+      "Race2": 80.0,
+      "Race3": "",
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
+      "Total": 80
+    },
+    {
+      "School": "Sutherland",
+      "Race1": "",
+      "Race2": 62.0,
+      "Race3": "",
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
+      "Total": 62
     }
   ]
 }
