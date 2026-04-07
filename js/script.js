@@ -1,60 +1,64 @@
 document.addEventListener("DOMContentLoaded", function () {
   fetch("../data/results.json")
-    .then(res => res.json())
-    .then(data => {
+    .then((res) => res.json())
+    .then((data) => {
       const riderDiv = document.getElementById("rider-results");
-
       if (!riderDiv || !data.riders) return;
 
-      const riderDivisionMap = {
-        "Sr Boys (Gr 11/12)": "Sr Boys",
-        "Sr Girls (Gr 11/12)": "Sr Girls",
-        "Jr Boys (Gr 10)": "Jr Boys",
-        "Jr Girls (Gr 10)": "Jr Girls",
-        "Juv Boys (Gr 9)": "Juv Boys",
-        "Juv Girls (Gr 9)": "Juv Girls",
-        "Bant Boys (Gr 8)": "Bant Boys",
-        "Bant Girls (Gr 8)": "Bant Girls"
-      };
+      riderDiv.innerHTML = "";
 
-      for (const label in riderDivisionMap) {
-        const key = riderDivisionMap[label];
-        if (data.riders[key]) {
-          const div = document.createElement("div");
-          div.classList.add("card");
-          div.innerHTML = `<h3>${label}</h3>`;
+      const riderDivisionMap = [
+        ["Sr Boys (Gr 11/12)", "Sr Boys"],
+        ["Sr Girls (Gr 11/12)", "Sr Girls"],
+        ["Jr Boys (Gr 10)", "Jr Boys"],
+        ["Jr Girls (Gr 10)", "Jr Girls"],
+        ["Juv Boys (Gr 9)", "Juv Boys"],
+        ["Juv Girls (Gr 9)", "Juv Girls"],
+        ["Bant Boys (Gr 8)", "Bant Boys"],
+        ["Bant Girls (Gr 8)", "Bant Girls"]
+      ];
 
-          let riderTable = `<table class="result-table">
+      riderDivisionMap.forEach(([label, key]) => {
+        const riders = Array.isArray(data.riders[key]) ? [...data.riders[key]] : [];
+        if (riders.length === 0) return;
+
+        riders.sort((a, b) => Number(b.points ?? 0) - Number(a.points ?? 0));
+        const topThree = riders.slice(0, 3);
+
+        const card = document.createElement("div");
+        card.className = "card results-card";
+
+        let html = `<h3>${label}</h3>`;
+        html += `
+          <table class="result-table compact-table">
             <thead>
               <tr>
                 <th>Rank</th>
                 <th>Name</th>
                 <th>School</th>
-                <th>Points</th>
+                <th>Pts</th>
               </tr>
             </thead>
-            <tbody>`;
+            <tbody>
+        `;
 
-            [...data.riders[key]]
-            .sort((a, b) => Number(b.points) - Number(a.points))
-            .slice(0, 3)
-            .forEach((rider, index) => {
-            riderTable += `
-              <tr>
-                <td>${index + 1}</td>
-                <td>${rider.name}</td>
-                <td>${rider.school}</td>
-                <td>${rider.points}</td>
-              </tr>`;
-          });
+        topThree.forEach((rider, index) => {
+          html += `
+            <tr>
+              <td>${index + 1}</td>
+              <td>${rider.name ?? ""}</td>
+              <td>${rider.school ?? ""}</td>
+              <td>${rider.points ?? ""}</td>
+            </tr>
+          `;
+        });
 
-          riderTable += `</tbody></table>`;
-          div.innerHTML += riderTable;
-          riderDiv.appendChild(div);
-        }
-      }
+        html += `</tbody></table>`;
+        card.innerHTML = html;
+        riderDiv.appendChild(card);
+      });
     })
-    .catch(err => {
+    .catch((err) => {
       console.error("Error loading results:", err);
     });
 });

@@ -601,3 +601,50 @@ select {
     margin-bottom: 1rem;
   }
 }
+
+.results-card {
+  overflow-x: auto;
+}
+
+.compact-table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.compact-table th,
+.compact-table td {
+  padding: 0.45rem 0.55rem;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+.compact-table th:nth-child(1),
+.compact-table td:nth-child(1) {
+  width: 52px;
+  text-align: center;
+}
+
+.compact-table th:nth-child(2),
+.compact-table td:nth-child(2) {
+  width: 32%;
+}
+
+.compact-table th:nth-child(3),
+.compact-table td:nth-child(3) {
+  width: 38%;
+}
+
+.compact-table th:nth-child(4),
+.compact-table td:nth-child(4) {
+  width: 60px;
+  text-align: center;
+}
+
+.grid-container {
+  align-items: start;
+}
+
+.card h3 {
+  margin-bottom: 0.75rem;
+}
