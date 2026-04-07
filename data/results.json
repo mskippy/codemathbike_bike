@@ -3,15 +3,15 @@
     "Bant Boys": [
       {
         "name": "Argyle",
-        "points": 502
+        "points": 265
       },
       {
         "name": "Coast Mtn",
-        "points": 389
+        "points": 182
       },
       {
-        "name": "Pemberton",
-        "points": 256
+        "name": "Handsworth",
+        "points": 148
       }
     ],
     "Jr Boys": [
@@ -58,11 +58,11 @@
     ],
     "Bant/Juv Girls": [
       {
-        "name": "Coast Mtn",
-        "points": 80
+        "name": "Argyle",
+        "points": 0
       },
       {
-        "name": "Argyle",
+        "name": "Coast Mtn",
         "points": 0
       },
       {
@@ -88,41 +88,41 @@
   "riders": {
     "Bant Boys": [
       {
+        "name": "Olivier Courcelles",
+        "school": "Don Ross",
+        "points": 100
+      },
+      {
+        "name": "Riley Buxton",
+        "school": "Argyle",
+        "points": 95
+      },
+      {
+        "name": "Jack Walton",
+        "school": "Chatelech",
+        "points": 90
+      },
+      {
         "name": "Nico Scott",
         "school": "Argyle",
-        "points": 125
-      },
-      {
-        "name": "Alasdair Robertson",
-        "school": "St. Georges",
-        "points": 110
-      },
-      {
-        "name": "Lucas Solis",
-        "school": "Rockridge",
-        "points": 110
+        "points": 85
       },
       {
         "name": "Ryan Kearnes",
         "school": "Pemberton",
-        "points": 105
-      },
-      {
-        "name": "Asher Lissett",
-        "school": "Coast Mtn",
-        "points": 102
+        "points": 80
       }
     ],
     "Bant Girls": [
       {
         "name": "Bella Gomes",
         "school": "Coast Mtn",
-        "points": 42
+        "points": 0
       },
       {
         "name": "Mackenzie Velaniskis",
         "school": "Coast Mtn",
-        "points": 38
+        "points": 0
       },
       {
         "name": "Lene Lok",
