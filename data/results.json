@@ -3,15 +3,15 @@
     "Bant Boys": [
       {
         "name": "Argyle",
-        "points": 265
+        "points": 502
       },
       {
         "name": "Coast Mtn",
-        "points": 182
+        "points": 389
       },
       {
-        "name": "Handsworth",
-        "points": 148
+        "name": "Pemberton",
+        "points": 256
       }
     ],
     "Jr Boys": [
@@ -88,29 +88,56 @@
   "riders": {
     "Bant Boys": [
       {
-        "name": "Olivier Courcelles",
-        "school": "Don Ross",
-        "points": 100
-      },
-      {
         "name": "Riley Buxton",
         "school": "Argyle",
-        "points": 95
+        "points": 195
       },
       {
         "name": "Jack Walton",
         "school": "Chatelech",
-        "points": 90
+        "points": 185
       },
       {
-        "name": "Nico Scott",
-        "school": "Argyle",
-        "points": 85
+        "name": "Jackson Jones",
+        "school": "Coast Mtn",
+        "points": 126
       },
       {
-        "name": "Ryan Kearnes",
-        "school": "Pemberton",
-        "points": 80
+        "name": "Weston Morum",
+        "school": "Coast Mtn",
+        "points": 120
+      },
+      {
+        "name": "Lucas Solis",
+        "school": "Rockridge",
+        "points": 110
+      }
+    ],
+    "Bant Girls": [
+      {
+        "name": "Bella Gomes",
+        "school": "Coast Mtn",
+        "points": 0
+      },
+      {
+        "name": "Mackenzie Velaniskis",
+        "school": "Coast Mtn",
+        "points": 0
+      },
+      {
+        "name": "Lene Lok",
+        "school": "Don Ross",
+        "points": 0
+      },
+      {
+        "name": "Jaime Kranz",
+        "school": "Don Ross",
+        "points": 0
+      },
+      {
+        "name": "Pippa Shore",
+        "school": "Don Ross",
+        "points": 0
       }
     ],
     "Jr Boys": [
@@ -272,33 +299,6 @@
       {
         "name": "Sophie Schiman",
         "school": "Carson",
-        "points": 0
-      }
-    ],
-    "Bant Girls": [
-      {
-        "name": "Bella Gomes",
-        "school": "Coast Mtn",
-        "points": 0
-      },
-      {
-        "name": "Mackenzie Velaniskis",
-        "school": "Coast Mtn",
-        "points": 0
-      },
-      {
-        "name": "Lene Lok",
-        "school": "Don Ross",
-        "points": 0
-      },
-      {
-        "name": "Jaime Kranz",
-        "school": "Don Ross",
-        "points": 0
-      },
-      {
-        "name": "Pippa Shore",
-        "school": "Don Ross",
         "points": 0
       }
     ]
