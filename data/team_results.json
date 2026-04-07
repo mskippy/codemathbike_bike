@@ -7,72 +7,72 @@
   "Bant Boys": [
     {
       "School": "Argyle",
-      "Race1": 268.0,
+      "Race1": 265.0,
       "Race2": "",
       "Race3": "",
       "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 268
+      "Total": 265
     },
     {
       "School": "Coast Mtn",
-      "Race1": 180.0,
+      "Race1": 182.0,
       "Race2": "",
       "Race3": "",
       "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 180
+      "Total": 182
     },
     {
       "School": "Handsworth",
-      "Race1": 163.0,
+      "Race1": 148.0,
       "Race2": "",
       "Race3": "",
       "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 163
+      "Total": 148
     },
     {
-      "School": "St. Georges",
-      "Race1": 159.0,
-      "Race2": "",
-      "Race3": "",
-      "Race4": "",
-      "Race5": "",
-      "Race6": "",
-      "Total": 159
-    },
-    {
-      "School": "Pemberton",
-      "Race1": 157.0,
-      "Race2": 0.0,
-      "Race3": 0.0,
-      "Race4": 0.0,
-      "Race5": 0.0,
-      "Race6": 0.0,
-      "Total": 157
-    },
-    {
-      "School": "Elphinstone",
+      "School": "Don Ross",
       "Race1": 146.0,
-      "Race2": 0.0,
-      "Race3": 0.0,
-      "Race4": 0.0,
-      "Race5": 0.0,
-      "Race6": 0.0,
+      "Race2": "",
+      "Race3": "",
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
       "Total": 146
     },
     {
-      "School": "Sutherland",
-      "Race1": 110.0,
+      "School": "Pemberton",
+      "Race1": 143.0,
+      "Race2": 0.0,
+      "Race3": 0.0,
+      "Race4": 0.0,
+      "Race5": 0.0,
+      "Race6": 0.0,
+      "Total": 143
+    },
+    {
+      "School": "St. Georges",
+      "Race1": 137.0,
       "Race2": "",
       "Race3": "",
       "Race4": "",
       "Race5": "",
       "Race6": "",
+      "Total": 137
+    },
+    {
+      "School": "Elphinstone",
+      "Race1": 110.0,
+      "Race2": 0.0,
+      "Race3": 0.0,
+      "Race4": 0.0,
+      "Race5": 0.0,
+      "Race6": 0.0,
       "Total": 110
     }
   ]

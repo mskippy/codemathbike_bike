@@ -3,15 +3,15 @@
     "Bant Boys": [
       {
         "name": "Argyle",
-        "points": 268
+        "points": 265
       },
       {
         "name": "Coast Mtn",
-        "points": 180
+        "points": 182
       },
       {
         "name": "Handsworth",
-        "points": 163
+        "points": 148
       }
     ],
     "Jr Boys": [
@@ -88,29 +88,29 @@
   "riders": {
     "Bant Boys": [
       {
-        "name": "Owen Morrison",
-        "school": "Alcuin College",
-        "points": 0
-      },
-      {
-        "name": "Max Remfry",
-        "school": "Argyle",
-        "points": 0
+        "name": "Olivier Courcelles",
+        "school": "Don Ross",
+        "points": 100
       },
       {
         "name": "Riley Buxton",
         "school": "Argyle",
-        "points": 0
+        "points": 95
+      },
+      {
+        "name": "Jack Walton",
+        "school": "Chatelech",
+        "points": 90
       },
       {
         "name": "Nico Scott",
         "school": "Argyle",
-        "points": 0
+        "points": 85
       },
       {
-        "name": "Rowen Doerr",
-        "school": "Argyle",
-        "points": 0
+        "name": "Ryan Kearnes",
+        "school": "Pemberton",
+        "points": 80
       }
     ],
     "Bant Girls": [
