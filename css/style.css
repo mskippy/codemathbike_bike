@@ -11,9 +11,10 @@ body {
 }
 
 main {
-  max-width: 900px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 section {
@@ -31,6 +32,10 @@ h2 {
   padding-bottom: 0.3rem;
   color: #2a5d3f;
   border-bottom: 2px solid #ccc;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 /* =========================
@@ -62,6 +67,11 @@ footer {
   font-weight: bold;
 }
 
+.main-nav a:hover,
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .nav-link.active {
   color: #ff6347;
 }
@@ -72,14 +82,16 @@ footer {
 
 .card {
   margin-bottom: 1rem;
-  padding: 1.2rem;
+  padding: 1.1rem 1.2rem;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
 .card h3 {
   margin-top: 0;
+  margin-bottom: 0.75rem;
   font-size: 1.2rem;
   color: #333;
 }
@@ -136,8 +148,9 @@ footer {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
 
 .feature-grid {
@@ -216,16 +229,19 @@ footer {
 
 .result-table {
   margin-top: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  table-layout: fixed;
 }
 
 .result-table th,
 .result-table td,
 .schedule-table th,
 .schedule-table td {
-  padding: 0.8rem 0.75rem;
+  padding: 0.5rem 0.6rem;
   text-align: left;
   vertical-align: top;
+  font-size: 0.9rem;
+  word-break: break-word;
 }
 
 .result-table th,
@@ -250,7 +266,7 @@ footer {
 
 .result-table th:first-child,
 .result-table td:first-child {
-  width: 50px;
+  width: 52px;
   text-align: center;
   white-space: nowrap;
 }
@@ -263,6 +279,49 @@ footer {
 
 .schedule-table a:hover {
   text-decoration: underline;
+}
+
+.card table {
+  width: 100%;
+}
+
+.results-card {
+  overflow-x: auto;
+}
+
+.compact-table {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 0.85rem;
+}
+
+.compact-table th,
+.compact-table td {
+  padding: 0.35rem 0.45rem;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+.compact-table th:nth-child(1),
+.compact-table td:nth-child(1) {
+  width: 52px;
+  text-align: center;
+}
+
+.compact-table th:nth-child(2),
+.compact-table td:nth-child(2) {
+  width: 32%;
+}
+
+.compact-table th:nth-child(3),
+.compact-table td:nth-child(3) {
+  width: 38%;
+}
+
+.compact-table th:nth-child(4),
+.compact-table td:nth-child(4) {
+  width: 60px;
+  text-align: center;
 }
 
 select {
@@ -466,11 +525,12 @@ select {
 
 .page-with-sidebar {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 240px minmax(0, 1fr);
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .page-content {
@@ -484,62 +544,12 @@ select {
 }
 
 /* =========================
-   Responsive
+   Results Page Layout
 ========================= */
-
-@media (max-width: 900px) {
-  .race-page-layout,
-  .page-with-sidebar {
-    grid-template-columns: 1fr;
-  }
-
-  .race-side-nav,
-  .left-sidebar {
-    position: static;
-  }
-}
-
-@media (max-width: 700px) {
-  main,
-  .page-with-sidebar {
-    padding: 1rem;
-  }
-
-  header,
-  footer,
-  .card {
-    padding: 1rem;
-  }
-
-  .main-nav ul {
-    gap: 1rem;
-  }
-
-  .button-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .button-link {
-    text-align: center;
-  }
-
-  .schedule-table th,
-  .schedule-table td,
-  .result-table th,
-  .result-table td {
-    padding: 0.65rem 0.5rem;
-    font-size: 0.95rem;
-  }
-
-  .marshal-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .results-layout {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 240px minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
 }
@@ -576,6 +586,10 @@ select {
   color: #2a5d3f;
 }
 
+.results-side-nav a:hover {
+  text-decoration: underline;
+}
+
 .results-side-nav a.active {
   color: #ff6347;
 }
@@ -588,13 +602,20 @@ select {
   margin-bottom: 2rem;
 }
 
-.section-intro {
-  margin-bottom: 1rem;
-}
+/* =========================
+   Responsive
+========================= */
 
 @media (max-width: 900px) {
+  .race-page-layout,
+  .page-with-sidebar,
   .results-layout {
     grid-template-columns: 1fr;
+  }
+
+  .race-side-nav,
+  .left-sidebar {
+    position: static;
   }
 
   .results-sidebar {
@@ -602,49 +623,44 @@ select {
   }
 }
 
-.results-card {
-  overflow-x: auto;
-}
+@media (max-width: 700px) {
+  main,
+  .page-with-sidebar {
+    padding: 1rem;
+  }
 
-.compact-table {
-  table-layout: fixed;
-  width: 100%;
-  font-size: 0.95rem;
-}
+  header,
+  footer,
+  .card {
+    padding: 1rem;
+  }
 
-.compact-table th,
-.compact-table td {
-  padding: 0.45rem 0.55rem;
-  vertical-align: top;
-  word-wrap: break-word;
-}
+  .main-nav ul {
+    gap: 1rem;
+  }
 
-.compact-table th:nth-child(1),
-.compact-table td:nth-child(1) {
-  width: 52px;
-  text-align: center;
-}
+  .button-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-.compact-table th:nth-child(2),
-.compact-table td:nth-child(2) {
-  width: 32%;
-}
+  .button-link {
+    text-align: center;
+  }
 
-.compact-table th:nth-child(3),
-.compact-table td:nth-child(3) {
-  width: 38%;
-}
+  .schedule-table th,
+  .schedule-table td,
+  .result-table th,
+  .result-table td {
+    padding: 0.45rem 0.4rem;
+    font-size: 0.82rem;
+  }
 
-.compact-table th:nth-child(4),
-.compact-table td:nth-child(4) {
-  width: 60px;
-  text-align: center;
-}
+  .compact-table {
+    font-size: 0.8rem;
+  }
 
-.grid-container {
-  align-items: start;
-}
-
-.card h3 {
-  margin-bottom: 0.75rem;
+  .marshal-grid {
+    grid-template-columns: 1fr;
+  }
 }
