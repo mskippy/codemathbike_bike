@@ -220,17 +220,15 @@ with open("data/school_results.json", "w") as f:
 print("✅ school_results.json created at: data/school_results.json")
 
 
-# === EXPORT RACE COMPARISON RESULTS ===
-print("Generating race_comparison.json...")
+# === EXPORT RACE RESULTS ===
+print("Generating race_results.json...")
 
-race_names = {
-    "Race 1": "Richard Juryn XC",
-    "Race 2": "Seymour Enduro",
-    "Race 3": "Alice Lake XC",
-    "Race 4": "Alice Lake Enduro",
-    "Race 5": "Fromme Enduro",
-    "Race 6": "Whistler XC"
-}
+# Pull race names from helper sheet columns H:I
+helper_races = pd.read_excel(EXCEL_FILE, sheet_name="helper", usecols="H:I")
+helper_races.columns = ["Race Key", "Race Name"]
+helper_races = helper_races.dropna()
+
+race_names = dict(zip(helper_races["Race Key"], helper_races["Race Name"]))
 
 race_col_map = {
     "Race 1": "R1 Pts",
@@ -241,29 +239,52 @@ race_col_map = {
     "Race 6": "R6 Pts"
 }
 
-race_comparison = {}
+boys_divisions = ["Sr Boys", "Jr Boys", "Juv Boys", "Bant Boys"]
+girls_divisions = ["Sr Girls", "Jr Girls", "Juv Girls", "Bant Girls"]
 
-for race_key, race_name in race_names.items():
-    boys = {"Sr Boys": [], "Jr Boys": [], "Juv Boys": [], "Bant Boys": []}
-    girls = {"Sr Girls": [], "Jr Girls": [], "Juv Girls": [], "Bant Girls": []}
-    race_col = race_col_map[race_key]
+race_results = {}
 
-    for division_dict in (boys, girls):
-        for division in division_dict:
-            sub_df = df_individual[df_individual["Division"] == division].copy()
-            sub_df[race_col] = pd.to_numeric(sub_df[race_col], errors="coerce")
-            sub_df = sub_df[~sub_df[race_col].isna() & (sub_df[race_col] > 0)]
-            sub_df = sub_df.sort_values(by=race_col, ascending=False)
-            riders = sub_df.apply(lambda row: f"{row['Student Name']} ({row['School']})", axis=1).tolist()
-            division_dict[division] = riders
+for race_key, pts_col in race_col_map.items():
+    race_name = race_names.get(race_key, race_key)
 
-    race_comparison[race_key] = {
+    boys = {}
+    girls = {}
+
+    for division in boys_divisions:
+        sub_df = df_individual[df_individual["Division"] == division].copy()
+        sub_df[pts_col] = pd.to_numeric(sub_df[pts_col], errors="coerce")
+        sub_df = sub_df[~sub_df[pts_col].isna() & (sub_df[pts_col] > 0)]
+        sub_df = sub_df.sort_values(by=pts_col, ascending=False)
+
+        boys[division] = [
+            {
+                "name": row.get("Student Name", ""),
+                "school": row.get("School", "")
+            }
+            for _, row in sub_df.iterrows()
+        ]
+
+    for division in girls_divisions:
+        sub_df = df_individual[df_individual["Division"] == division].copy()
+        sub_df[pts_col] = pd.to_numeric(sub_df[pts_col], errors="coerce")
+        sub_df = sub_df[~sub_df[pts_col].isna() & (sub_df[pts_col] > 0)]
+        sub_df = sub_df.sort_values(by=pts_col, ascending=False)
+
+        girls[division] = [
+            {
+                "name": row.get("Student Name", ""),
+                "school": row.get("School", "")
+            }
+            for _, row in sub_df.iterrows()
+        ]
+
+    race_results[race_key] = {
         "race_name": race_name,
         "boys": boys,
         "girls": girls
     }
 
-with open("data/race_comparison.json", "w") as f:
-    json.dump(race_comparison, f, indent=2)
+with open("data/race_results.json", "w", encoding="utf-8") as f:
+    json.dump(race_results, f, indent=2, ensure_ascii=False)
 
-print("✅ race_comparison.json created at: data/race_comparison.json")
+print("✅ race_results.json created at: data/race_results.json")

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Race Results | NSSSAA Mountain Bike League</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>NSSSAA Mountain Bike League</h1>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../info.html">League Info</a></li>
+        <li><a href="../updates.html">Updates</a></li>
+        <li><a href="index.html" class="active">Results</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="results-layout">
+
+    <aside class="results-sidebar">
+      <h2>Results</h2>
+      <nav class="results-side-nav">
+        <ul>
+          <li><a href="index.html">Results Home</a></li>
+          <li><a href="division_results.html">Division Results</a></li>
+          <li><a href="race_results.html" class="active">Race Results</a></li>
+          <li><a href="team_results.html">Team Results</a></li>
+          <li><a href="school_results.html">School Results</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="results-main">
+      <section class="content-section">
+        <h2>Race Results</h2>
+        <p class="section-intro">
+          Select a race to view ranked boys and girls division results.
+        </p>
+
+        <label for="race-select"><strong>Select Race:</strong></label>
+        <select id="race-select">
+          <option value="">-- Choose a race --</option>
+        </select>
+
+        <div class="race-page-links" id="race-page-links" style="display:none;">
+          <a href="#boys-results">Jump to Boys Results</a>
+          <span> | </span>
+          <a href="#girls-results">Jump to Girls Results</a>
+        </div>
+
+        <div id="race-results-container"></div>
+      </section>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 NSSSAA Mountain Bike League</p>
+  </footer>
+
+  <script src="../js/race_results.js"></script>
+</body>
+</html>

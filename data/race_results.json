@@ -1,0 +1,442 @@
+{
+  "Race 1": {
+    "race_name": "R1 - Richard Juryn XC",
+    "boys": {
+      "Sr Boys": [],
+      "Jr Boys": [],
+      "Juv Boys": [],
+      "Bant Boys": [
+        {
+          "name": "Olivier Courcelles",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Riley Buxton",
+          "school": "Argyle"
+        },
+        {
+          "name": "Jack Walton",
+          "school": "Chatelech"
+        },
+        {
+          "name": "Nico Scott",
+          "school": "Argyle"
+        },
+        {
+          "name": "Ryan Kearnes",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Augusten Worsfold",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Bryce Weatherly",
+          "school": "Carson"
+        },
+        {
+          "name": "Marcelo Alcocer Tremari",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Weston Morum",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Lennart Schilling",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Felix Carr",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Jackson Jones",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Kaelan Percival",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Sean Weber",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Andrew Simpson",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Ronin Stewart",
+          "school": "Argyle"
+        },
+        {
+          "name": "Rowen Doerr",
+          "school": "Argyle"
+        },
+        {
+          "name": "Tristan Cole",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Alasdair Robertson",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Jivcko Elvir Sheilds",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Jeronimo Gomez",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Laith Rifaat",
+          "school": "Argyle"
+        },
+        {
+          "name": "Teo Damici",
+          "school": "STA"
+        },
+        {
+          "name": "Rory Sykes",
+          "school": "STA"
+        },
+        {
+          "name": "David Shilletto",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Dash Nicoll",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Micah Treadway",
+          "school": "Pemberton"
+        },
+        {
+          "name": "William Lucas",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Ryan Pasha",
+          "school": "Argyle"
+        },
+        {
+          "name": "Thomson Bythell",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Asher Lissett",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Slater McDougall",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Arthur Scale",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Andrew Wenzlaff",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Owen Purdy",
+          "school": "Argyle"
+        },
+        {
+          "name": "Erik Moore",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Lucas Solis",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Carter Hetherington",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Braden Hope",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Trent Bristow",
+          "school": "West Van"
+        },
+        {
+          "name": "Cole Fraser",
+          "school": "Coast Mtn"
+        }
+      ]
+    },
+    "girls": {
+      "Sr Girls": [],
+      "Jr Girls": [],
+      "Juv Girls": [],
+      "Bant Girls": []
+    }
+  },
+  "Race 2": {
+    "race_name": "R2 - Seymour Enduro",
+    "boys": {
+      "Sr Boys": [],
+      "Jr Boys": [],
+      "Juv Boys": [],
+      "Bant Boys": [
+        {
+          "name": "Riley Buxton",
+          "school": "Argyle"
+        },
+        {
+          "name": "Jack Walton",
+          "school": "Chatelech"
+        },
+        {
+          "name": "Lucas Solis",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Aiden Bucci",
+          "school": "Brockton"
+        },
+        {
+          "name": "William Grant",
+          "school": "Windsor"
+        },
+        {
+          "name": "Jackson Jones",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Alasdair Robertson",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Arthur Scale",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Weston Morum",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Micah Treadway",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Owen Purdy",
+          "school": "Argyle"
+        },
+        {
+          "name": "Asher Lissett",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "William Lucas",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Nash Funreaux",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Thomas Brown",
+          "school": "Whistler"
+        },
+        {
+          "name": "Ronin Stewart",
+          "school": "Argyle"
+        },
+        {
+          "name": "Austin Bandic",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Jack Burt",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Rowen Doerr",
+          "school": "Argyle"
+        },
+        {
+          "name": "Ryan Pasha",
+          "school": "Argyle"
+        },
+        {
+          "name": "Dylan MacDondald",
+          "school": "Argyle"
+        },
+        {
+          "name": "Teo Damici",
+          "school": "STA"
+        },
+        {
+          "name": "Max Remfry",
+          "school": "Argyle"
+        },
+        {
+          "name": "William Kolper",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Dash Nicoll",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Laith Rifaat",
+          "school": "Argyle"
+        },
+        {
+          "name": "Felix Carr",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Lennart Schilling",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Jeronimo Gomez",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Rory Sykes",
+          "school": "STA"
+        },
+        {
+          "name": "Trent Bristow",
+          "school": "West Van"
+        },
+        {
+          "name": "Lucas Cullingworth",
+          "school": "Argyle"
+        },
+        {
+          "name": "Ryan Kearnes",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Slater McDougall",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Sebastian Sturgess",
+          "school": "Whistler"
+        },
+        {
+          "name": "Sean Weber",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Cole Fraser",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Henry Sparrow",
+          "school": "Brockton"
+        },
+        {
+          "name": "Yara Raouf Malayeri",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Callum Paul",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Andrew Wenzlaff",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Hayden Bristow",
+          "school": "West Van"
+        },
+        {
+          "name": "Erik Moore",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Augusten Worsfold",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Greyson Klein",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Anton Anghellescu",
+          "school": "Whistler"
+        }
+      ]
+    },
+    "girls": {
+      "Sr Girls": [],
+      "Jr Girls": [],
+      "Juv Girls": [],
+      "Bant Girls": []
+    }
+  },
+  "Race 3": {
+    "race_name": "R3 - Fromme XC",
+    "boys": {
+      "Sr Boys": [],
+      "Jr Boys": [],
+      "Juv Boys": [],
+      "Bant Boys": []
+    },
+    "girls": {
+      "Sr Girls": [],
+      "Jr Girls": [],
+      "Juv Girls": [],
+      "Bant Girls": []
+    }
+  },
+  "Race 4": {
+    "race_name": "R4 - Fromme Enduro",
+    "boys": {
+      "Sr Boys": [],
+      "Jr Boys": [],
+      "Juv Boys": [],
+      "Bant Boys": []
+    },
+    "girls": {
+      "Sr Girls": [],
+      "Jr Girls": [],
+      "Juv Girls": [],
+      "Bant Girls": []
+    }
+  },
+  "Race 5": {
+    "race_name": "R5 - Squamish Enduro",
+    "boys": {
+      "Sr Boys": [],
+      "Jr Boys": [],
+      "Juv Boys": [],
+      "Bant Boys": []
+    },
+    "girls": {
+      "Sr Girls": [],
+      "Jr Girls": [],
+      "Juv Girls": [],
+      "Bant Girls": []
+    }
+  },
+  "Race 6": {
+    "race_name": "R6 - Whistler XC",
+    "boys": {
+      "Sr Boys": [],
+      "Jr Boys": [],
+      "Juv Boys": [],
+      "Bant Boys": []
+    },
+    "girls": {
+      "Sr Girls": [],
+      "Jr Girls": [],
+      "Juv Girls": [],
+      "Bant Girls": []
+    }
+  }
+}

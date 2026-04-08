@@ -13,10 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
     "Bant Girls"
   ];
 
-  fetch("data/division_results.json")
-    .then((res) => res.json())
+  fetch("../data/division_results.json")
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} - could not load division_results.json`);
+      }
+      return res.json();
+    })
     .then((data) => {
-      // Populate dropdown in preferred order
       divisionOrder.forEach((division) => {
         if (!data[division]) return;
 
@@ -65,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <td>${index + 1}</td>
               <td>${r.name || ""}</td>
               <td>${r.school || ""}</td>
-              <td>${r.plate || ""}</td>
+              <td>${formatPlate(r.plate)}</td>
               <td>${formatRace(r["R1 Place"], r["R1 Pts"])}</td>
               <td>${formatRace(r["R2 Place"], r["R2 Pts"])}</td>
               <td>${formatRace(r["R3 Place"], r["R3 Pts"])}</td>
@@ -98,5 +102,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (hasPlace && hasPts) return `${place} (${pts})`;
     if (hasPlace) return `${place}`;
     return `(${pts})`;
+  }
+
+  function formatPlate(plate) {
+    if (plate === "" || plate === null || plate === undefined) return "";
+    return Number.isInteger(Number(plate)) ? Number(plate) : plate;
   }
 });
