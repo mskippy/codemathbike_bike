@@ -1,62 +1,85 @@
-document.addEventListener('DOMContentLoaded', function () {
-  fetch('data/team_results.json')
-    .then(response => response.json())
-    .then(data => {
-      const divisionOrder = [
-        'Sr Boys',
-        'Jr Boys',
-        'Jr/Sr Girls',
-        'Bant/Juv Girls',
-        'Juv Boys',
-        'Bant Boys'
-      ];
+document.addEventListener("DOMContentLoaded", () => {
+  const divisionOrder = [
+    "Sr Boys",
+    "Jr Boys",
+    "Jr/Sr Girls",
+    "Bant/Juv Girls",
+    "Juv Boys",
+    "Bant Boys"
+  ];
 
-      const divisionSection = document.getElementById('division-results');
+  const divisionSection = document.getElementById("division-results");
 
-      divisionOrder.forEach(division => {
-        const teams = (data[division] || []).filter(team =>
-          team.Total !== null && team.Total !== 0 && !isNaN(team.Total)
-        );
+  fetch("../data/team_results.json")
+    .then((response) => response.json())
+    .then((data) => {
+      divisionOrder.forEach((division) => {
+        const teams = (data[division] || [])
+          .filter((team) => Number(team.Total) > 0)
+          .sort((a, b) => Number(b.Total) - Number(a.Total));
 
         if (teams.length === 0) return;
 
-        // Card wrapper for consistent layout
-        const div = document.createElement('div');
-        div.classList.add('card');
-        div.innerHTML = `<h3>${division}</h3>`;
+        const section = document.createElement("section");
+        section.classList.add("content-section");
 
-        // Build the table
-        let table = `<table class="result-table">
-          <thead>
-            <tr>
-              <th>Rank</th><th>School</th>
-              <th>Race 1</th><th>Race 2</th><th>Race 3</th>
-              <th>Race 4</th><th>Race 5</th><th>Race 6</th>
-              <th>Total</th>
-            </tr>
-          </thead>
-          <tbody>`;
+        let html = `
+          <h3>${division}</h3>
+          <table class="result-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>School</th>
+                <th>Race 1</th>
+                <th>Race 2</th>
+                <th>Race 3</th>
+                <th>Race 4</th>
+                <th>Race 5</th>
+                <th>Race 6</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+        `;
 
         teams.forEach((team, index) => {
-          table += `<tr>
-            <td>${index + 1}</td>
-            <td>${team.School}</td>
-            <td>${team.Race1 || ""}</td>
-            <td>${team.Race2 || ""}</td>
-            <td>${team.Race3 || ""}</td>
-            <td>${team.Race4 || ""}</td>
-            <td>${team.Race5 || ""}</td>
-            <td>${team.Race6 || ""}</td>
-            <td><strong>${team.Total}</strong></td>
-          </tr>`;
+          html += `
+            <tr>
+              <td>${index + 1}</td>
+              <td>${team.School ?? ""}</td>
+              <td>${formatScore(team.Race1)}</td>
+              <td>${formatScore(team.Race2)}</td>
+              <td>${formatScore(team.Race3)}</td>
+              <td>${formatScore(team.Race4)}</td>
+              <td>${formatScore(team.Race5)}</td>
+              <td>${formatScore(team.Race6)}</td>
+              <td><strong>${formatScore(team.Total)}</strong></td>
+            </tr>
+          `;
         });
 
-        table += "</tbody></table>";
-        div.innerHTML += table;
-        divisionSection.appendChild(div);
+        html += `
+            </tbody>
+          </table>
+        `;
+
+        section.innerHTML = html;
+        divisionSection.appendChild(section);
       });
+
+      if (!divisionSection.innerHTML.trim()) {
+        divisionSection.innerHTML = "<p>No team results available yet.</p>";
+      }
     })
-    .catch(error => {
-      console.error('Error loading team results data:', error);
+    .catch((error) => {
+      console.error("Error loading team results data:", error);
+      divisionSection.innerHTML = "<p>Failed to load team results data.</p>";
     });
+
+  function formatScore(value) {
+    if (value === null || value === undefined || value === "" || Number(value) === 0) {
+      return "";
+    }
+    return value;
+  }
 });

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Race Results | NSSSAA Mountain Bike League</title>
+  <title>Division Results | NSSSAA Mountain Bike League</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -28,8 +28,8 @@
       <nav class="results-side-nav">
         <ul>
           <li><a href="index.html">Results Home</a></li>
-          <li><a href="division_results.html">Division Results</a></li>
-          <li><a href="race_results.html" class="active">Race Results</a></li>
+          <li><a href="division_results.html" class="active">Division Results</a></li>
+          <li><a href="race_results.html">Race Results</a></li>
           <li><a href="team_results.html">Team Results</a></li>
           <li><a href="school_results.html">School Results</a></li>
         </ul>
@@ -38,23 +38,17 @@
 
     <section class="results-main">
       <section class="content-section">
-        <h2>Race Results</h2>
+        <h2>Division Results</h2>
         <p class="section-intro">
-          Select a race to view ranked boys and girls division results.
+          Select a division to view full individual standings.
         </p>
 
-        <label for="race-select"><strong>Select Race:</strong></label>
-        <select id="race-select">
-          <option value="">-- Choose a race --</option>
+        <label for="division-select"><strong>Select Division:</strong></label>
+        <select id="division-select">
+          <option value="">-- Choose a division --</option>
         </select>
 
-        <div class="race-page-links" id="race-page-links" style="display:none;">
-          <a href="#boys-results">Jump to Boys Results</a>
-          <span> | </span>
-          <a href="#girls-results">Jump to Girls Results</a>
-        </div>
-
-        <div id="race-results-container"></div>
+        <div id="division-results-container"></div>
       </section>
     </section>
 
@@ -64,6 +58,6 @@
     <p>&copy; 2026 NSSSAA Mountain Bike League</p>
   </footer>
 
-  <script src="../js/race_results.js"></script>
+  <script src="../js/division_results.js"></script>
 </body>
 </html>

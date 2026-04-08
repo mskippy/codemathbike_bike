@@ -230,7 +230,7 @@ footer {
 .result-table {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .result-table th,
@@ -241,7 +241,6 @@ footer {
   text-align: left;
   vertical-align: top;
   font-size: 0.9rem;
-  word-break: break-word;
 }
 
 .result-table th,
@@ -264,34 +263,103 @@ footer {
   background-color: #f8f9fa;
 }
 
-.result-table th:first-child,
-.result-table td:first-child {
-  width: 52px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.schedule-table a {
-  color: #2a5d3f;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.schedule-table a:hover {
-  text-decoration: underline;
-}
-
 .card table {
   width: 100%;
 }
 
-.results-card {
+.results-card,
+.table-scroll {
   overflow-x: auto;
 }
 
+select {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* =========================
+   Result Table Column Classes
+========================= */
+
+/* Generic shared behaviours */
+.result-table .col-rank,
+.result-table .col-race,
+.result-table .col-total,
+.result-table .col-points,
+.result-table .col-place,
+.result-table .col-plate {
+  white-space: nowrap;
+}
+
+.result-table .col-rank,
+.result-table .col-race,
+.result-table .col-total,
+.result-table .col-points,
+.result-table .col-place {
+  text-align: center;
+}
+
+/* Specific column widths */
+.result-table .col-rank {
+  width: 56px;
+  min-width: 56px;
+}
+
+.result-table .col-name {
+  min-width: 190px;
+  white-space: nowrap;
+}
+
+.result-table .col-school {
+  min-width: 150px;
+  white-space: nowrap;
+}
+
+.result-table .col-name-school {
+  min-width: 220px;
+  white-space: nowrap;
+}
+
+.result-table .col-plate {
+  width: 84px;
+  min-width: 84px;
+}
+
+.result-table .col-race {
+  width: 64px;
+  min-width: 64px;
+}
+
+.result-table .col-place {
+  width: 72px;
+  min-width: 72px;
+}
+
+.result-table .col-points {
+  width: 76px;
+  min-width: 76px;
+}
+
+.result-table .col-total {
+  width: 78px;
+  min-width: 78px;
+  font-weight: 600;
+}
+
+/* Cells that may need wrapping */
+.result-table .wrap {
+  white-space: normal;
+}
+
+.result-table .no-wrap {
+  white-space: nowrap;
+}
+
+/* Optional compact table variant */
 .compact-table {
   width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
   font-size: 0.85rem;
 }
 
@@ -299,35 +367,6 @@ footer {
 .compact-table td {
   padding: 0.35rem 0.45rem;
   vertical-align: top;
-  word-break: break-word;
-}
-
-.compact-table th:nth-child(1),
-.compact-table td:nth-child(1) {
-  width: 52px;
-  text-align: center;
-}
-
-.compact-table th:nth-child(2),
-.compact-table td:nth-child(2) {
-  width: 32%;
-}
-
-.compact-table th:nth-child(3),
-.compact-table td:nth-child(3) {
-  width: 38%;
-}
-
-.compact-table th:nth-child(4),
-.compact-table td:nth-child(4) {
-  width: 60px;
-  text-align: center;
-}
-
-select {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  font-size: 1rem;
 }
 
 /* =========================
@@ -656,11 +695,26 @@ select {
     font-size: 0.82rem;
   }
 
-  .compact-table {
-    font-size: 0.8rem;
-  }
-
   .marshal-grid {
     grid-template-columns: 1fr;
+  }
+
+  .result-table .col-name,
+  .result-table .col-school,
+  .result-table .col-name-school {
+    min-width: 140px;
+  }
+
+  .result-table .col-plate {
+    width: 72px;
+    min-width: 72px;
+  }
+
+  .result-table .col-race,
+  .result-table .col-place,
+  .result-table .col-points,
+  .result-table .col-total {
+    width: 56px;
+    min-width: 56px;
   }
 }
