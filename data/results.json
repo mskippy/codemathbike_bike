@@ -2,304 +2,304 @@
   "teams": {
     "Bant Boys": [
       {
-        "name": "Argyle",
-        "points": 0
+        "name": "Don Ross",
+        "points": 280
       },
       {
         "name": "Coast Mtn",
-        "points": 0
+        "points": 237
       },
       {
-        "name": "Don Ross",
-        "points": 0
+        "name": "Pemberton",
+        "points": 168
       }
     ],
     "Jr Boys": [
       {
-        "name": "Argyle",
-        "points": 0
+        "name": "Howe Sound",
+        "points": 320
       },
       {
-        "name": "Brockton",
-        "points": 0
+        "name": "Argyle",
+        "points": 250
       },
       {
         "name": "Handsworth",
-        "points": 0
+        "points": 242
       }
     ],
     "Jr/Sr Girls": [
       {
+        "name": "Pemberton",
+        "points": 295
+      },
+      {
         "name": "Argyle",
-        "points": 0
+        "points": 260
       },
       {
-        "name": "Carson",
-        "points": 0
-      },
-      {
-        "name": "Handsworth",
-        "points": 0
+        "name": "Howe Sound",
+        "points": 238
       }
     ],
     "Juv Boys": [
       {
         "name": "Argyle",
-        "points": 0
+        "points": 294
+      },
+      {
+        "name": "Seycove",
+        "points": 253
       },
       {
         "name": "Collingwood",
-        "points": 0
-      },
-      {
-        "name": "Don Ross",
-        "points": 0
+        "points": 177
       }
     ],
     "Bant/Juv Girls": [
       {
+        "name": "Whistler",
+        "points": 246
+      },
+      {
         "name": "Argyle",
-        "points": 0
+        "points": 237
       },
       {
-        "name": "Coast Mtn",
-        "points": 0
-      },
-      {
-        "name": "Don Ross",
-        "points": 0
+        "name": "Pemberton",
+        "points": 235
       }
     ],
     "Sr Boys": [
       {
-        "name": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Burnaby Mtn",
-        "points": 0
-      },
-      {
         "name": "Carson",
-        "points": 0
+        "points": 293
+      },
+      {
+        "name": "Handsworth",
+        "points": 235
+      },
+      {
+        "name": "Pemberton",
+        "points": 233
       }
     ]
   },
   "riders": {
     "Bant Boys": [
       {
-        "name": "Max Remfry",
-        "school": "Argyle",
-        "points": 0
+        "name": "Kelyn Horsely",
+        "school": "Don Ross",
+        "points": 100
       },
       {
-        "name": "Riley Buxton",
-        "school": "Argyle",
-        "points": 0
+        "name": "Elias\u00a0Newby",
+        "school": "Don Ross",
+        "points": 95
       },
       {
-        "name": "Nico Scott",
-        "school": "Argyle",
-        "points": 0
+        "name": "Asher Lissett",
+        "school": "Coast Mtn",
+        "points": 90
       },
       {
-        "name": "Rowen Doerr",
-        "school": "Argyle",
-        "points": 0
+        "name": "Alexander Moran",
+        "school": "Chatelech",
+        "points": 90
       },
       {
-        "name": "Lucas Cullingworth",
-        "school": "Argyle",
-        "points": 0
+        "name": "Tristan Clark",
+        "school": "Don Ross",
+        "points": 85
       }
     ],
     "Jr Boys": [
       {
-        "name": "Emanuel Arreaga",
-        "school": "Argyle",
-        "points": 0
+        "name": "Paxton Hunter",
+        "school": "Howe Sound",
+        "points": 100
       },
       {
-        "name": "Callum Brown",
-        "school": "Argyle",
-        "points": 0
+        "name": "Charlie Sigston",
+        "school": "Handsworth",
+        "points": 95
       },
       {
-        "name": "Liam Mistal",
-        "school": "Argyle",
-        "points": 0
+        "name": "Finley Lloyd",
+        "school": "Howe Sound",
+        "points": 90
       },
       {
-        "name": "Liam Leaver",
+        "name": "Ethan Bookbinder",
         "school": "Argyle",
-        "points": 0
+        "points": 85
       },
       {
-        "name": "Noah Cullingworth",
-        "school": "Argyle",
-        "points": 0
+        "name": "Max Campbell",
+        "school": "Handsworth",
+        "points": 80
       }
     ],
     "Jr Girls": [
       {
-        "name": "Isabelle Von der Porte",
-        "school": "Argyle",
-        "points": 0
+        "name": "Tyler McIntosh",
+        "school": "Seycove",
+        "points": 100
       },
       {
-        "name": "Annelise Cliburn",
-        "school": "Argyle",
-        "points": 0
+        "name": "Abby Simpson ",
+        "school": "Howe Sound",
+        "points": 95
       },
       {
-        "name": "Lauryn Megens",
-        "school": "Argyle",
-        "points": 0
+        "name": "Maeve Lazar-Barry",
+        "school": "Howe Sound",
+        "points": 90
       },
       {
-        "name": "Amirali Karimian",
-        "school": "Argyle",
-        "points": 0
+        "name": "Anja Taylor",
+        "school": "Pemberton",
+        "points": 85
       },
       {
         "name": "Sophia Judson",
         "school": "Argyle",
-        "points": 0
+        "points": 80
       }
     ],
     "Juv Boys": [
       {
-        "name": "Oliver Reedman",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Daniel Munroe",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
         "name": "Sacha Strajt-Bornik",
         "school": "Argyle",
-        "points": 0
+        "points": 100
       },
       {
-        "name": "Jack Lucy",
-        "school": "Argyle",
-        "points": 0
+        "name": "Alexandre Legrand Comeau",
+        "school": "Handsworth",
+        "points": 95
       },
       {
-        "name": "Keaton Swystun",
+        "name": "Matthew Crockford",
         "school": "Argyle",
-        "points": 0
+        "points": 90
+      },
+      {
+        "name": "John Suda",
+        "school": "Collingwood",
+        "points": 85
+      },
+      {
+        "name": "Lucas Norbert",
+        "school": "Seycove",
+        "points": 80
       }
     ],
     "Juv Girls": [
       {
-        "name": "Agness Friesen",
-        "school": "Argyle",
-        "points": 0
+        "name": "Alva Campos",
+        "school": "Whistler",
+        "points": 100
       },
       {
-        "name": "Beatrix Reilly",
-        "school": "Argyle",
-        "points": 0
+        "name": "Austin Lewis",
+        "school": "Whistler",
+        "points": 95
       },
       {
-        "name": "Vivienne Vroom",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Amelie Rubio",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Macey Hawkshaw",
-        "school": "Argyle",
-        "points": 0
-      }
-    ],
-    "Sr Boys": [
-      {
-        "name": "Dylan Lilley",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Kai Nunes",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Ben Christian",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Markus Leung",
-        "school": "Argyle",
-        "points": 0
-      },
-      {
-        "name": "Guy Shalev",
-        "school": "Argyle",
-        "points": 0
-      }
-    ],
-    "Sr Girls": [
-      {
-        "name": "Sabina Rossiello",
-        "school": "Burnaby Mtn",
-        "points": 0
-      },
-      {
-        "name": "Claire Dickie",
-        "school": "Carson",
-        "points": 0
-      },
-      {
-        "name": "Jasmine Macpherson",
-        "school": "Carson",
-        "points": 0
-      },
-      {
-        "name": "Sophie Schiman",
-        "school": "Carson",
-        "points": 0
-      },
-      {
-        "name": "Zoe Steen",
-        "school": "Carson",
-        "points": 0
-      }
-    ],
-    "Bant Girls": [
-      {
-        "name": "Bella Gomes",
-        "school": "Coast Mtn",
-        "points": 0
-      },
-      {
-        "name": "Mackenzie Velaniskis",
-        "school": "Coast Mtn",
-        "points": 0
+        "name": "Stella Henderson",
+        "school": "Seycove",
+        "points": 90
       },
       {
         "name": "Lene Lok",
         "school": "Don Ross",
-        "points": 0
+        "points": 85
       },
       {
-        "name": "Jaime Kranz",
-        "school": "Don Ross",
-        "points": 0
+        "name": "Maddy White",
+        "school": "Collingwood",
+        "points": 80
+      }
+    ],
+    "Sr Boys": [
+      {
+        "name": "James Pinfold",
+        "school": "Carson",
+        "points": 100
       },
       {
-        "name": "Pippa Shore",
-        "school": "Don Ross",
-        "points": 0
+        "name": "Oscar Tarling",
+        "school": "Pemberton",
+        "points": 95
+      },
+      {
+        "name": "Russell Ferguson",
+        "school": "Handsworth",
+        "points": 90
+      },
+      {
+        "name": "Jonah Rickard",
+        "school": "Carson",
+        "points": 85
+      },
+      {
+        "name": "Rafe Hudson",
+        "school": "Coast Mtn",
+        "points": 80
+      }
+    ],
+    "Sr Girls": [
+      {
+        "name": "Emelie Kvick",
+        "school": "Windsor",
+        "points": 100
+      },
+      {
+        "name": "Elia Comeau",
+        "school": "Handsworth",
+        "points": 95
+      },
+      {
+        "name": "Sabina Rossiello",
+        "school": "Burnaby Mtn",
+        "points": 90
+      },
+      {
+        "name": "Claire Dickie",
+        "school": "Carson",
+        "points": 85
+      },
+      {
+        "name": "Lilly McGowan",
+        "school": "Whistler",
+        "points": 80
+      }
+    ],
+    "Bant Girls": [
+      {
+        "name": "Samantha Schisler",
+        "school": "Seycove",
+        "points": 100
+      },
+      {
+        "name": "Marie Crowell",
+        "school": "Pemberton",
+        "points": 95
+      },
+      {
+        "name": "Olivia Shin",
+        "school": "STA",
+        "points": 90
+      },
+      {
+        "name": "Piper Fear",
+        "school": "Pemberton",
+        "points": 85
+      },
+      {
+        "name": "Mackenzie Velaniskis",
+        "school": "Coast Mtn",
+        "points": 80
       }
     ]
   }

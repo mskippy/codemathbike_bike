@@ -2,50 +2,52 @@ import openpyxl
 import pandas as pd
 import json
 import sys
+from pathlib import Path
 
 # Ensure UTF-8 encoding for console output
 sys.stdout.reconfigure(encoding='utf-8')
 
-# === CONFIG ===
-EXCEL_FILE = "results_2026_master.xlsx"
-TEAM_RESULTS_FILE = "data/team_results.json"  # Export path for team results
+# === PATH CONFIG ===
+BASE_DIR = Path(__file__).resolve().parent
+EXCEL_FILE = BASE_DIR / "results_2026_master.xlsx"
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
 
+TEAM_RESULTS_FILE = DATA_DIR / "team_results.json"
+RESULTS_FILE = DATA_DIR / "results.json"
+DIVISION_RESULTS_FILE = DATA_DIR / "division_results.json"
+SCHOOL_RESULTS_FILE = DATA_DIR / "school_results.json"
+RACE_RESULTS_FILE = DATA_DIR / "race_results.json"
 
-# Load TeamPoints sheet with specific columns A to I (0 to 8) and use the first 101 rows (A1:I101)
+# === LOAD TEAM DATA ===
 df_teams = pd.read_excel(EXCEL_FILE, sheet_name="TeamPoints", header=0, usecols="A:I", nrows=101)
 
-# Clean up column names: Remove leading/trailing spaces and ensure they are strings
+# Clean up column names
 df_teams.columns = df_teams.columns.astype(str).str.strip()
 
-# Debug: Print out the first 10 rows to inspect the data
+# Debug: inspect first rows
 print(df_teams.head(10))
 
-# Force 'Division' and 'School' columns to be strings (to handle potential formatting issues)
-df_teams['Division'] = df_teams['Division'].astype(str).str.strip()
-df_teams['School'] = df_teams['School'].astype(str).str.strip()
+# Clean key text columns
+df_teams["Division"] = df_teams["Division"].astype(str).str.strip()
+df_teams["School"] = df_teams["School"].astype(str).str.strip()
 
-# Ensure 'Division' column exists
-if 'Division' not in df_teams.columns:
+if "Division" not in df_teams.columns:
     raise ValueError("Column 'Division' is missing in the TeamPoints sheet")
 
-# === CLEAN TEAM DATA ===
-# Select columns 0 (Division), 1 (School), and 8 (Total), with Race columns 2-7
-left = df_teams.iloc[:, [0, 1, 8]]  # Left table (Division, School, Total)
-left.columns = ['Division', 'School', 'Total']
-
-# Organize top 3 teams per division
+# === TOP 3 TEAMS FOR HOME PAGE ===
 teams_output = {}
-for division in df_teams['Division'].unique():
+for division in df_teams["Division"].unique():
     top3 = (
-        df_teams[df_teams['Division'] == division]
-        .sort_values(by='Total', ascending=False)
+        df_teams[df_teams["Division"] == division]
+        .sort_values(by="Total", ascending=False)
         .head(3)
-        .rename(columns={'School': 'name', 'Total': 'points'})
-        [['name', 'points']].reset_index(drop=True)
+        .rename(columns={"School": "name", "Total": "points"})[["name", "points"]]
+        .reset_index(drop=True)
     )
-    teams_output[division] = top3.to_dict(orient='records')
+    teams_output[division] = top3.to_dict(orient="records")
 
-# === FULL TEAM RESULTS EXPORT (for team_results page) ===
+# === FULL TEAM RESULTS EXPORT ===
 full_teams_output = {}
 division_order = [
     "Sr Boys",
@@ -61,12 +63,9 @@ for division in division_order:
     division_df = division_df.dropna(subset=["Total"])
     division_df = division_df[division_df["Total"] > 0]
     division_df = division_df.sort_values(by="Total", ascending=False)
-    division_df = division_df.fillna("")  # <- This line ensures NaN is removed before exporting
-
-    teams = []
-        # Replace NaNs in the race columns before exporting
     division_df = division_df.fillna("")
 
+    teams = []
     for _, row in division_df.iterrows():
         team_data = {
             "School": row["School"],
@@ -80,66 +79,53 @@ for division in division_order:
         }
         teams.append(team_data)
 
-
     full_teams_output[division] = teams
 
-# Export full team results to team_results.json
-with open("data/team_results.json", "w") as f:
+with open(TEAM_RESULTS_FILE, "w", encoding="utf-8") as f:
     json.dump(full_teams_output, f, indent=2)
 
-print("✅ team_results.json created at: data/team_results.json")
+print(f"✅ team_results.json created at: {TEAM_RESULTS_FILE}")
 
-
-# === EXPORT TEAM RESULTS TO JSON ===
-# with open(TEAM_RESULTS_FILE, "w") as f:
-#    json.dump(teams_output, f, indent=2)
-
-#print(f"✅ team_results.json created at: {TEAM_RESULTS_FILE}")
-
-
-# === CLEAN RIDERS DATA ===
+# === LOAD INDIVIDUAL RESULTS ===
 df_individual = pd.read_excel(EXCEL_FILE, sheet_name="Individual Results")
-df_individual['Top 5'] = pd.to_numeric(df_individual['Top 5'], errors='coerce')
-OUTPUT_FILE = "data/results.json"
+df_individual["Top 5"] = pd.to_numeric(df_individual["Top 5"], errors="coerce")
 
+# === TOP 5 RIDERS FOR HOME PAGE ===
 riders_output = {}
-for division in df_individual['Division'].dropna().unique():
+for division in df_individual["Division"].dropna().unique():
     top5 = (
-        df_individual[df_individual['Division'] == division]
-        .sort_values(by='Top 5', ascending=False)
+        df_individual[df_individual["Division"] == division]
+        .sort_values(by="Top 5", ascending=False)
         .head(5)
-        .rename(columns={'Student Name': 'name', 'School': 'school', 'Top 5': 'points'})
-        [['name', 'school', 'points']].reset_index(drop=True)
+        .rename(columns={"Student Name": "name", "School": "school", "Top 5": "points"})[
+            ["name", "school", "points"]
+        ]
+        .reset_index(drop=True)
     )
-    riders_output[division] = top5.to_dict(orient='records')
+    riders_output[division] = top5.to_dict(orient="records")
 
-# === EXPORT TO JSON ===
 results_json = {
     "teams": teams_output,
     "riders": riders_output
 }
 
-with open(OUTPUT_FILE, "w") as f:
+with open(RESULTS_FILE, "w", encoding="utf-8") as f:
     json.dump(results_json, f, indent=2)
 
-print("✅ results.json created at:", OUTPUT_FILE)
+print(f"✅ results.json created at: {RESULTS_FILE}")
 
-
-# === EXPORT DIVISION RESULTS ===
+# === DIVISION RESULTS EXPORT ===
 division_data = {}
 
-# Clean up NaN and convert Top 5 to numeric for sorting
-df_individual['Top 5'] = pd.to_numeric(df_individual['Top 5'], errors='coerce')
-df_individual = df_individual.fillna("")  # Replace all NaNs with empty strings
+df_individual["Top 5"] = pd.to_numeric(df_individual["Top 5"], errors="coerce")
+df_individual = df_individual.fillna("")
 
-for division in df_individual['Division'].unique():
+for division in df_individual["Division"].unique():
     if not division:
         continue
 
-    div_df = df_individual[df_individual['Division'] == division].copy()
-    div_df = div_df.sort_values(by='Top 5', ascending=False).reset_index(drop=True)
-
-
+    div_df = df_individual[df_individual["Division"] == division].copy()
+    div_df = div_df.sort_values(by="Top 5", ascending=False).reset_index(drop=True)
 
     riders = []
     for _, row in div_df.iterrows():
@@ -165,28 +151,22 @@ for division in df_individual['Division'].unique():
 
     division_data[division] = riders
 
-# Save to file
-with open("data/division_results.json", "w") as f:
+with open(DIVISION_RESULTS_FILE, "w", encoding="utf-8") as f:
     json.dump(division_data, f, indent=2)
 
-print("✅ division_results.json created at: data/division_results.json")
+print(f"✅ division_results.json created at: {DIVISION_RESULTS_FILE}")
 
-
-# === EXPORT SCHOOL RESULTS ===
+# === SCHOOL RESULTS EXPORT ===
 school_data = {}
 
-# Group by division first
-for division in df_individual['Division'].dropna().unique():
-    div_df = df_individual[df_individual['Division'] == division].copy()
-    div_df['Top 5'] = pd.to_numeric(div_df['Top 5'], errors='coerce')
-
-    # Replace NaN in all relevant fields with empty strings to make it JSON safe
+for division in df_individual["Division"].dropna().unique():
+    div_df = df_individual[df_individual["Division"] == division].copy()
+    div_df["Top 5"] = pd.to_numeric(div_df["Top 5"], errors="coerce")
     div_df = div_df.fillna("")
-
-    div_df = div_df.sort_values(by='Top 5', ascending=False).reset_index(drop=True)
+    div_df = div_df.sort_values(by="Top 5", ascending=False).reset_index(drop=True)
 
     for _, row in div_df.iterrows():
-        school = row['School']
+        school = row["School"]
         if not school:
             continue
 
@@ -213,22 +193,22 @@ for division in df_individual['Division'].dropna().unique():
             "points": row.get("Top 5", "")
         })
 
-# Write school data safely to JSON
-with open("data/school_results.json", "w") as f:
+with open(SCHOOL_RESULTS_FILE, "w", encoding="utf-8") as f:
     json.dump(school_data, f, indent=2)
 
-print("✅ school_results.json created at: data/school_results.json")
+print(f"✅ school_results.json created at: {SCHOOL_RESULTS_FILE}")
 
-
-# === EXPORT RACE RESULTS ===
+# === RACE RESULTS EXPORT ===
 print("Generating race_results.json...")
 
-# Pull race names from helper sheet columns H:I
-helper_races = pd.read_excel(EXCEL_FILE, sheet_name="helper", usecols="H:I")
-helper_races.columns = ["Race Key", "Race Name"]
-helper_races = helper_races.dropna()
-
-race_names = dict(zip(helper_races["Race Key"], helper_races["Race Name"]))
+race_names = {
+    "Race 1": "R1 - Richard Juryn XC",
+    "Race 2": "R2 - Seymour Enduro",
+    "Race 3": "R3 - Fromme XC",
+    "Race 4": "R4 - Fromme Enduro",
+    "Race 5": "R5 - Squamish Enduro",
+    "Race 6": "R6 - Whistler XC"
+}
 
 race_col_map = {
     "Race 1": "R1 Pts",
@@ -284,7 +264,7 @@ for race_key, pts_col in race_col_map.items():
         "girls": girls
     }
 
-with open("data/race_results.json", "w", encoding="utf-8") as f:
+with open(RACE_RESULTS_FILE, "w", encoding="utf-8") as f:
     json.dump(race_results, f, indent=2, ensure_ascii=False)
 
-print("✅ race_results.json created at: data/race_results.json")
+print(f"✅ race_results.json created at: {RACE_RESULTS_FILE}")
