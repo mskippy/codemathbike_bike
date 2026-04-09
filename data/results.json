@@ -14,6 +14,20 @@
         "points": 168
       }
     ],
+    "Bant/Juv Girls": [
+      {
+        "name": "Whistler",
+        "points": 246
+      },
+      {
+        "name": "Argyle",
+        "points": 237
+      },
+      {
+        "name": "Pemberton",
+        "points": 235
+      }
+    ],
     "Jr Boys": [
       {
         "name": "Howe Sound",
@@ -45,29 +59,15 @@
     "Juv Boys": [
       {
         "name": "Argyle",
-        "points": 294
+        "points": 298
       },
       {
         "name": "Seycove",
-        "points": 253
+        "points": 264
       },
       {
         "name": "Collingwood",
-        "points": 177
-      }
-    ],
-    "Bant/Juv Girls": [
-      {
-        "name": "Whistler",
-        "points": 246
-      },
-      {
-        "name": "Argyle",
-        "points": 237
-      },
-      {
-        "name": "Pemberton",
-        "points": 235
+        "points": 191
       }
     ],
     "Sr Boys": [
@@ -86,33 +86,6 @@
     ]
   },
   "riders": {
-    "Bant Boys": [
-      {
-        "name": "Kelyn Horsely",
-        "school": "Don Ross",
-        "points": 100
-      },
-      {
-        "name": "Elias\u00a0Newby",
-        "school": "Don Ross",
-        "points": 95
-      },
-      {
-        "name": "Asher Lissett",
-        "school": "Coast Mtn",
-        "points": 90
-      },
-      {
-        "name": "Alexander Moran",
-        "school": "Chatelech",
-        "points": 90
-      },
-      {
-        "name": "Tristan Clark",
-        "school": "Don Ross",
-        "points": 85
-      }
-    ],
     "Jr Boys": [
       {
         "name": "Paxton Hunter",
@@ -246,6 +219,33 @@
         "name": "Rafe Hudson",
         "school": "Coast Mtn",
         "points": 80
+      }
+    ],
+    "Bant Boys": [
+      {
+        "name": "Kelyn Horsely",
+        "school": "Don Ross",
+        "points": 100
+      },
+      {
+        "name": "Elias\u00a0Newby",
+        "school": "Don Ross",
+        "points": 95
+      },
+      {
+        "name": "Alexander Moran",
+        "school": "Chatelech",
+        "points": 90
+      },
+      {
+        "name": "Asher Lissett",
+        "school": "Coast Mtn",
+        "points": 90
+      },
+      {
+        "name": "Tristan Clark",
+        "school": "Don Ross",
+        "points": 85
       }
     ],
     "Sr Girls": [

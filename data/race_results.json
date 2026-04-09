@@ -382,12 +382,12 @@
           "school": "Coast Mtn"
         },
         {
-          "name": "Gerardo Reyes Elisio",
-          "school": "Howe Sound"
-        },
-        {
           "name": "Cole Vrsnik",
           "school": "Mulgrave"
+        },
+        {
+          "name": "Gerardo Reyes Elisio",
+          "school": "Howe Sound"
         },
         {
           "name": "Jeremy Smerychynski",
@@ -492,6 +492,10 @@
           "school": "Handsworth"
         },
         {
+          "name": "Hunter Hodge",
+          "school": "Collingwood"
+        },
+        {
           "name": "Daniel Munroe",
           "school": "Argyle"
         },
@@ -524,10 +528,6 @@
           "school": "Argyle"
         },
         {
-          "name": "Hunter Hodge",
-          "school": "Collingwood"
-        },
-        {
           "name": "Nico Gomez",
           "school": "Seycove"
         },
@@ -538,6 +538,10 @@
         {
           "name": "Bodhi Elmas",
           "school": "Seycove"
+        },
+        {
+          "name": "James Felix",
+          "school": "Windsor"
         },
         {
           "name": "Oliver Parkinson",
