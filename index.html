@@ -19,60 +19,18 @@
         </ul>
       </nav>
     </nav>
-<!--
-    <p class="site-intro">
-      Race information, league updates, and results for the NSSSAA Mountain Bike League.
-    </p>
 
-    <div class="button-row header-buttons">
-      <a class="button-link" href="info.html">League Info</a>
-      <a class="button-link secondary" href="archive/2025/index.html">2025 Results</a>
-      <a class="button-link secondary" href="archive/index.html">Archive</a>
-    </div> -->
   </header>
 
   <main>
     <section>
       <h2>Latest Update</h2>
-      <div class="card update-post">
-        <h3>The 2026 Season Begins this week!</h3>
-        <p class="update-date"><strong>Last updated:</strong> April 6th, 2026</p>
-        
-        <p>
-          <a href="../races/race1/race1.html"><strong>Race #1: Richard Juryn</strong></a> is this <strong>Wednesday, April 8th.</strong>. Please check the race page for race details, parking and course information.
-        </p>
-
-        <p>
-            <strong>Coaches</strong>
-            <ul>
-              <li><strong>Roster Updates</strong> - please send any changes to Michelle <a href="mailto:mahoy@sd44.ca">mahoy@sd44.ca</a>.</li>
-              <li><strong>Race Package Pickup</strong> - at registration. </li>
-              <li><strong>Volunteers</strong> - We need some more volunteers for the race - please send the website link out to parents</li>
-            </ul>
-        </p>
-
-        <p>
-          <strong>Volunteers Needed!</strong>
-        </p>
-        <p>If you are able to volunteer for a race to help with marshaling, please check out the race pages for volunteer opportunities. Students - this can count as volunteer hours!</p>
-      </div>
-
-      <div class="card update-post">
-        <h3>Trail Day with NSMBA – April 1</h3>
-        <p class="update-date"><strong>Last updated:</strong> April 6th, 2026</p>
-        
-      
-        <p>
-          Great job to <strong>Argyle</strong> and <strong>Sutherland</strong> for coming out to support our trail network and working with the NSMBA despite the wet weahter! Pictures comeing soon!
-        </p>
-      
-      </div>
-
-
+    
+      <div id="latest-update-container"></div>
+    
       <div class="updates-footer">
         <a class="button-link secondary" href="updates.html">View All Updates</a>
       </div>
-
     </section>
 
     <section>
@@ -164,6 +122,11 @@
   <footer>
     <p>&copy; 2026 NSSSAA Mountain Bike League</p>
   </footer>
+
+  <script src="updates.js"></script>
+    <script>
+      document.getElementById("nav-home").classList.add("active");
+    </script>
 
   <script>
     document.getElementById("nav-home").classList.add("active");
