@@ -92,18 +92,27 @@
     </section>
 
     <section>
-      <h2>Results</h2>
-      <div class="card">
-        <p>
-          Current season results and standings will be posted here once racing begins.
+      <section>
+        <h2>Current Standings</h2>
+        <p class="section-intro">
+          Updated league standings for the current season. View the top teams and top riders by division, or open the full results pages for more detail.
         </p>
-        <p class="results-note">
-          <strong>Looking for last year’s results?</strong>
-        </p>
-        <p>
-          <a class="button-link" href="archive/2025/index.html">View 2025 Results</a>
-        </p>
-      </div>
+      
+        <section id="teams">
+          <h3>Top 3 Teams per Division</h3>
+          <div id="team-results" class="grid-container"></div>
+        </section>
+      
+        <section id="individuals">
+          <h3>Top 3 Riders per Division</h3>
+          <div id="rider-results" class="grid-container"></div>
+        </section>
+      
+        <div class="updates-footer">
+          <a class="button-link" href="results/index.html">View Full Results</a>
+          <a class="button-link secondary" href="archive/2025/index.html">View 2025 Results</a>
+        </div>
+      </section>
     </section>
 
     <section>
@@ -124,6 +133,7 @@
   </footer>
 
   <script src="js/updates.js"></script>
+  <script src="js/script.js"></script>
     <script>
       document.getElementById("nav-home").classList.add("active");
     </script>

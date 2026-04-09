@@ -2,6 +2,56 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("../data/results.json")
     .then((res) => res.json())
     .then((data) => {
+      const teamDiv = document.getElementById("team-results");
+
+if (teamDiv && data.teams) {
+  teamDiv.innerHTML = "";
+
+  const teamDivisionOrder = [
+    "Sr Boys",
+    "Jr Boys",
+    "Jr/Sr Girls",
+    "Bant/Juv Girls",
+    "Juv Boys",
+    "Bant Boys"
+  ];
+
+  teamDivisionOrder.forEach((division) => {
+    const teams = Array.isArray(data.teams[division]) ? [...data.teams[division]] : [];
+    if (teams.length === 0) return;
+
+    const card = document.createElement("div");
+    card.className = "card results-card";
+
+    let html = `<h3>${division}</h3>`;
+    html += `
+      <table class="result-table compact-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Team</th>
+            <th>Pts</th>
+          </tr>
+        </thead>
+        <tbody>
+    `;
+
+    teams.forEach((team, index) => {
+      html += `
+        <tr>
+          <td>${index + 1}</td>
+          <td>${team.name ?? ""}</td>
+          <td>${team.points ?? ""}</td>
+        </tr>
+      `;
+    });
+
+    html += `</tbody></table>`;
+    card.innerHTML = html;
+    teamDiv.appendChild(card);
+  });
+}
+
       const riderDiv = document.getElementById("rider-results");
       if (!riderDiv || !data.riders) return;
 
