@@ -416,6 +416,10 @@
           "school": "Seycove"
         },
         {
+          "name": "Nash Funreaux",
+          "school": "Don Ross"
+        },
+        {
           "name": "Kyle Hopper-Isaac",
           "school": "Seycove"
         },
@@ -558,12 +562,12 @@
           "school": "Don Ross"
         },
         {
-          "name": "Alexander Moran",
-          "school": "Chatelech"
-        },
-        {
           "name": "Asher Lissett",
           "school": "Coast Mtn"
+        },
+        {
+          "name": "Alexander Moran",
+          "school": "Chatelech"
         },
         {
           "name": "Tristan Clark",
