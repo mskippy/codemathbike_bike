@@ -21,7 +21,7 @@ fetch('data/updates.json')
       post.innerHTML = `
         <h2>${update.title}</h2>
         <p><strong>${new Date(update.date).toLocaleDateString()}</strong></p>
-        <p>${update.content}</p>
+        <div>${update.content}</div>
         ${index === 0 ? '<p><a class="results-link" href="/results/division_results.html">View Results</a></p>' : ''}
       `;
 
