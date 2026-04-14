@@ -22,7 +22,7 @@ fetch('data/updates.json')
         <h2>${update.title}</h2>
         <p><strong>${new Date(update.date).toLocaleDateString()}</strong></p>
         <div>${update.content}</div>
-        ${index === 0 ? '<p><a class="results-link" href="/results/division_results.html">View Results</a></p>' : ''}
+        <!--${index === 0 ? '<p><a class="results-link" href="/results/division_results.html">View Results</a></p>' : ''}
       `;
 
       container.appendChild(post);
