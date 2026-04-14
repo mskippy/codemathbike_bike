@@ -718,3 +718,23 @@ select {
     min-width: 56px;
   }
 }
+
+  .latest-update-card {
+    border-left: 6px solid #2a5d3f;
+    background-color: #eef6f0;
+  }
+
+  .results-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.55rem 1rem;
+    background-color: #2a5d3f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+
+  .results-link:hover {
+    opacity: 0.9;
+  }

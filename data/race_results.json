@@ -378,16 +378,16 @@
           "school": "Brockton"
         },
         {
+          "name": "Gerardo Reyes Elisio",
+          "school": "Howe Sound"
+        },
+        {
           "name": "Evan Kozak",
           "school": "Coast Mtn"
         },
         {
           "name": "Cole Vrsnik",
           "school": "Mulgrave"
-        },
-        {
-          "name": "Gerardo Reyes Elisio",
-          "school": "Howe Sound"
         },
         {
           "name": "Jeremy Smerychynski",
@@ -402,6 +402,10 @@
         {
           "name": "Alexandre Legrand Comeau",
           "school": "Handsworth"
+        },
+        {
+          "name": "Alexander Moran",
+          "school": "Chatelech"
         },
         {
           "name": "Matthew Crockford",
@@ -564,10 +568,6 @@
         {
           "name": "Asher Lissett",
           "school": "Coast Mtn"
-        },
-        {
-          "name": "Alexander Moran",
-          "school": "Chatelech"
         },
         {
           "name": "Tristan Clark",

@@ -1,53 +1,34 @@
 fetch('data/updates.json')
   .then(response => response.json())
   .then(data => {
-    const allUpdatesContainer = document.getElementById('updates-container');
-    const latestUpdateContainer = document.getElementById('latest-update-container');
+    const container = document.getElementById('updates-container');
 
-    function formatDate(dateString) {
-      return new Date(dateString).toLocaleDateString(undefined, {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-      });
+    if (!data || data.length === 0) {
+      container.innerHTML = '<p>No updates available at this time.</p>';
+      return;
     }
 
-    function createUpdateCard(update, headingTag = 'h3', dateLabel = 'Posted:') {
+    container.innerHTML = '';
+
+    data.slice(0, 2).forEach((update, index) => {
       const post = document.createElement('div');
-      post.classList.add('card', 'update-post');
+      post.classList.add('update-post');
+
+      if (index === 0) {
+        post.classList.add('latest-update-card');
+      };
 
       post.innerHTML = `
-        <${headingTag}>${update.title}</${headingTag}>
-        <p class="update-date"><strong>${dateLabel}</strong> ${formatDate(update.date)}</p>
+        <h2>${update.title}</h2>
+        <p><strong>${new Date(update.date).toLocaleDateString()}</strong></p>
         <p>${update.content}</p>
+        ${index === 0 ? '<p><a class="results-link" href="/results/division_results.html">View Results</a></p>' : ''}
       `;
 
-      return post;
-    }
-
-    // Render all updates on updates.html
-    if (allUpdatesContainer) {
-      data.forEach(update => {
-        allUpdatesContainer.appendChild(createUpdateCard(update, 'h3', 'Posted:'));
-      });
-    }
-
-    // Render latest update only on index.html
-    if (latestUpdateContainer && data.length > 0) {
-      latestUpdateContainer.appendChild(createUpdateCard(data[0], 'h3', 'Last updated:'));
-    }
+      container.appendChild(post);
+    });
   })
   .catch(error => {
     console.error('Error loading updates:', error);
-
-    const allUpdatesContainer = document.getElementById('updates-container');
-    const latestUpdateContainer = document.getElementById('latest-update-container');
-
-    if (allUpdatesContainer) {
-      allUpdatesContainer.innerHTML = '<p>Unable to load updates at this time.</p>';
-    }
-
-    if (latestUpdateContainer) {
-      latestUpdateContainer.innerHTML = '<p>Unable to load the latest update at this time.</p>';
-    }
+    document.getElementById('updates-container').innerHTML = '<p>Unable to load updates at this time.</p>';
   });

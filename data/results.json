@@ -86,220 +86,220 @@
     ]
   },
   "riders": {
-    "Jr Boys": [
-      {
-        "name": "Paxton Hunter",
-        "school": "Howe Sound",
-        "points": 100
-      },
-      {
-        "name": "Charlie Sigston",
-        "school": "Handsworth",
-        "points": 95
-      },
-      {
-        "name": "Finley Lloyd",
-        "school": "Howe Sound",
-        "points": 90
-      },
-      {
-        "name": "Ethan Bookbinder",
-        "school": "Argyle",
-        "points": 85
-      },
-      {
-        "name": "Max Campbell",
-        "school": "Handsworth",
-        "points": 80
-      }
-    ],
-    "Jr Girls": [
-      {
-        "name": "Tyler McIntosh",
-        "school": "Seycove",
-        "points": 100
-      },
-      {
-        "name": "Abby Simpson ",
-        "school": "Howe Sound",
-        "points": 95
-      },
-      {
-        "name": "Maeve Lazar-Barry",
-        "school": "Howe Sound",
-        "points": 90
-      },
-      {
-        "name": "Anja Taylor",
-        "school": "Pemberton",
-        "points": 85
-      },
-      {
-        "name": "Sophia Judson",
-        "school": "Argyle",
-        "points": 80
-      }
-    ],
-    "Juv Boys": [
-      {
-        "name": "Sacha Strajt-Bornik",
-        "school": "Argyle",
-        "points": 100
-      },
-      {
-        "name": "Alexandre Legrand Comeau",
-        "school": "Handsworth",
-        "points": 95
-      },
-      {
-        "name": "Matthew Crockford",
-        "school": "Argyle",
-        "points": 90
-      },
-      {
-        "name": "John Suda",
-        "school": "Collingwood",
-        "points": 85
-      },
-      {
-        "name": "Lucas Norbert",
-        "school": "Seycove",
-        "points": 80
-      }
-    ],
-    "Juv Girls": [
-      {
-        "name": "Alva Campos",
-        "school": "Whistler",
-        "points": 100
-      },
-      {
-        "name": "Austin Lewis",
-        "school": "Whistler",
-        "points": 95
-      },
-      {
-        "name": "Stella Henderson",
-        "school": "Seycove",
-        "points": 90
-      },
-      {
-        "name": "Lene Lok",
-        "school": "Don Ross",
-        "points": 85
-      },
-      {
-        "name": "Maddy White",
-        "school": "Collingwood",
-        "points": 80
-      }
-    ],
-    "Sr Boys": [
-      {
-        "name": "James Pinfold",
-        "school": "Carson",
-        "points": 100
-      },
-      {
-        "name": "Oscar Tarling",
-        "school": "Pemberton",
-        "points": 95
-      },
-      {
-        "name": "Russell Ferguson",
-        "school": "Handsworth",
-        "points": 90
-      },
-      {
-        "name": "Jonah Rickard",
-        "school": "Carson",
-        "points": 85
-      },
-      {
-        "name": "Rafe Hudson",
-        "school": "Coast Mtn",
-        "points": 80
-      }
-    ],
     "Bant Boys": [
       {
         "name": "Kelyn Horsely",
         "school": "Don Ross",
-        "points": 100
+        "points": 100.0
       },
       {
         "name": "Elias\u00a0Newby",
         "school": "Don Ross",
-        "points": 95
-      },
-      {
-        "name": "Alexander Moran",
-        "school": "Chatelech",
-        "points": 90
+        "points": 95.0
       },
       {
         "name": "Asher Lissett",
         "school": "Coast Mtn",
-        "points": 90
+        "points": 90.0
       },
       {
         "name": "Tristan Clark",
         "school": "Don Ross",
-        "points": 85
-      }
-    ],
-    "Sr Girls": [
-      {
-        "name": "Emelie Kvick",
-        "school": "Windsor",
-        "points": 100
+        "points": 85.0
       },
       {
-        "name": "Elia Comeau",
-        "school": "Handsworth",
-        "points": 95
-      },
-      {
-        "name": "Sabina Rossiello",
-        "school": "Burnaby Mtn",
-        "points": 90
-      },
-      {
-        "name": "Claire Dickie",
-        "school": "Carson",
-        "points": 85
-      },
-      {
-        "name": "Lilly McGowan",
-        "school": "Whistler",
-        "points": 80
+        "name": "Dash Nicoll",
+        "school": "Pemberton",
+        "points": 80.0
       }
     ],
     "Bant Girls": [
       {
         "name": "Samantha Schisler",
         "school": "Seycove",
-        "points": 100
+        "points": 100.0
       },
       {
         "name": "Marie Crowell",
         "school": "Pemberton",
-        "points": 95
+        "points": 95.0
       },
       {
         "name": "Olivia Shin",
         "school": "STA",
-        "points": 90
+        "points": 90.0
       },
       {
         "name": "Piper Fear",
         "school": "Pemberton",
-        "points": 85
+        "points": 85.0
       },
       {
         "name": "Mackenzie Velaniskis",
         "school": "Coast Mtn",
-        "points": 80
+        "points": 80.0
+      }
+    ],
+    "Jr Boys": [
+      {
+        "name": "Paxton Hunter",
+        "school": "Howe Sound",
+        "points": 100.0
+      },
+      {
+        "name": "Charlie Sigston",
+        "school": "Handsworth",
+        "points": 95.0
+      },
+      {
+        "name": "Finley Lloyd",
+        "school": "Howe Sound",
+        "points": 90.0
+      },
+      {
+        "name": "Ethan Bookbinder",
+        "school": "Argyle",
+        "points": 85.0
+      },
+      {
+        "name": "Max Campbell",
+        "school": "Handsworth",
+        "points": 80.0
+      }
+    ],
+    "Jr Girls": [
+      {
+        "name": "Tyler McIntosh",
+        "school": "Seycove",
+        "points": 100.0
+      },
+      {
+        "name": "Abby Simpson ",
+        "school": "Howe Sound",
+        "points": 95.0
+      },
+      {
+        "name": "Maeve Lazar-Barry",
+        "school": "Howe Sound",
+        "points": 90.0
+      },
+      {
+        "name": "Anja Taylor",
+        "school": "Pemberton",
+        "points": 85.0
+      },
+      {
+        "name": "Sophia Judson",
+        "school": "Argyle",
+        "points": 80.0
+      }
+    ],
+    "Juv Boys": [
+      {
+        "name": "Sacha Strajt-Bornik",
+        "school": "Argyle",
+        "points": 100.0
+      },
+      {
+        "name": "Alexandre Legrand Comeau",
+        "school": "Handsworth",
+        "points": 95.0
+      },
+      {
+        "name": "Matthew Crockford",
+        "school": "Argyle",
+        "points": 90.0
+      },
+      {
+        "name": "Alexander Moran",
+        "school": "Chatelech",
+        "points": 90.0
+      },
+      {
+        "name": "John Suda",
+        "school": "Collingwood",
+        "points": 85.0
+      }
+    ],
+    "Juv Girls": [
+      {
+        "name": "Alva Campos",
+        "school": "Whistler",
+        "points": 100.0
+      },
+      {
+        "name": "Austin Lewis",
+        "school": "Whistler",
+        "points": 95.0
+      },
+      {
+        "name": "Stella Henderson",
+        "school": "Seycove",
+        "points": 90.0
+      },
+      {
+        "name": "Lene Lok",
+        "school": "Don Ross",
+        "points": 85.0
+      },
+      {
+        "name": "Maddy White",
+        "school": "Collingwood",
+        "points": 80.0
+      }
+    ],
+    "Sr Boys": [
+      {
+        "name": "James Pinfold",
+        "school": "Carson",
+        "points": 100.0
+      },
+      {
+        "name": "Oscar Tarling",
+        "school": "Pemberton",
+        "points": 95.0
+      },
+      {
+        "name": "Russell Ferguson",
+        "school": "Handsworth",
+        "points": 90.0
+      },
+      {
+        "name": "Jonah Rickard",
+        "school": "Carson",
+        "points": 85.0
+      },
+      {
+        "name": "Rafe Hudson",
+        "school": "Coast Mtn",
+        "points": 80.0
+      }
+    ],
+    "Sr Girls": [
+      {
+        "name": "Emelie Kvick",
+        "school": "Windsor",
+        "points": 100.0
+      },
+      {
+        "name": "Elia Comeau",
+        "school": "Handsworth",
+        "points": 95.0
+      },
+      {
+        "name": "Sabina Rossiello",
+        "school": "Burnaby Mtn",
+        "points": 90.0
+      },
+      {
+        "name": "Claire Dickie",
+        "school": "Carson",
+        "points": 85.0
+      },
+      {
+        "name": "Lilly McGowan",
+        "school": "Whistler",
+        "points": 80.0
       }
     ]
   }
