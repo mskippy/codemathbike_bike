@@ -67,7 +67,7 @@
       },
       {
         "name": "Collingwood",
-        "points": 347
+        "points": 374
       }
     ],
     "Sr Boys": [
@@ -140,33 +140,6 @@
         "points": 140.0
       }
     ],
-    "Jr Girls": [
-      {
-        "name": "Tyler McIntosh",
-        "school": "Seycove",
-        "points": 190.0
-      },
-      {
-        "name": "Norah Glavas",
-        "school": "Pemberton",
-        "points": 165.0
-      },
-      {
-        "name": "Maeve Lazar-Barry",
-        "school": "Howe Sound",
-        "points": 143.0
-      },
-      {
-        "name": "Sophia Judson",
-        "school": "Argyle",
-        "points": 135.0
-      },
-      {
-        "name": "Annelise Cliburn",
-        "school": "Argyle",
-        "points": 125.0
-      }
-    ],
     "Juv Boys": [
       {
         "name": "Sacha Strajt-Bornik",
@@ -206,12 +179,12 @@
         "points": 175.0
       },
       {
-        "name": "Jaime Kranz",
+        "name": "Lene Lok",
         "school": "Don Ross",
         "points": 160.0
       },
       {
-        "name": "Lene Lok",
+        "name": "Jaime Kranz",
         "school": "Don Ross",
         "points": 160.0
       },
@@ -219,6 +192,33 @@
         "name": "Stella Henderson",
         "school": "Seycove",
         "points": 150.0
+      }
+    ],
+    "Jr Girls": [
+      {
+        "name": "Tyler McIntosh",
+        "school": "Seycove",
+        "points": 190.0
+      },
+      {
+        "name": "Norah Glavas",
+        "school": "Pemberton",
+        "points": 165.0
+      },
+      {
+        "name": "Maeve Lazar-Barry",
+        "school": "Howe Sound",
+        "points": 143.0
+      },
+      {
+        "name": "Sophia Judson",
+        "school": "Argyle",
+        "points": 135.0
+      },
+      {
+        "name": "Annelise Cliburn",
+        "school": "Argyle",
+        "points": 125.0
       }
     ],
     "Sr Boys": [

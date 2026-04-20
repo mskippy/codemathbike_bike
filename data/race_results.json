@@ -200,16 +200,16 @@
           "school": "Burnaby Mtn"
         },
         {
-          "name": "Finlay Bubbs",
-          "school": "Pemberton"
-        },
-        {
           "name": "Will Burkett",
           "school": "Burnaby Mtn"
         },
         {
           "name": "Harrison Hume",
           "school": "Coast Mtn"
+        },
+        {
+          "name": "Finlay Bubbs",
+          "school": "Pemberton"
         }
       ],
       "Jr Boys": [
@@ -378,12 +378,12 @@
           "school": "Brockton"
         },
         {
-          "name": "Evan Kozak",
-          "school": "Coast Mtn"
-        },
-        {
           "name": "Gerardo Reyes Elisio",
           "school": "Howe Sound"
+        },
+        {
+          "name": "Evan Kozak",
+          "school": "Coast Mtn"
         },
         {
           "name": "Cole Vrsnik",
@@ -1131,39 +1131,31 @@
           "school": "St. Georges"
         },
         {
+          "name": "Tristan Ng",
+          "school": "Burnaby Mtn"
+        },
+        {
           "name": "Carter Bucci",
           "school": "Brockton"
-        },
-        {
-          "name": "William Elliott",
-          "school": "STA"
-        },
-        {
-          "name": "Ben Christian",
-          "school": "Argyle"
-        },
-        {
-          "name": "Shae O'Boyle",
-          "school": "STA"
         },
         {
           "name": "Isaac Flegal",
           "school": "Argyle"
         },
         {
-          "name": "Mateo Ortiz",
-          "school": "Sutherland"
-        },
-        {
-          "name": "Hyunseo Ryu",
+          "name": "Dylan Lilley",
           "school": "Argyle"
         },
         {
-          "name": "Zachary Jiminez",
-          "school": "Collingwood"
+          "name": "Ben Christian",
+          "school": "Argyle"
         },
         {
           "name": "Leif Montgomery",
+          "school": "Argyle"
+        },
+        {
+          "name": "Hyunseo Ryu",
           "school": "Argyle"
         },
         {
@@ -1171,28 +1163,36 @@
           "school": "Burnaby Mtn"
         },
         {
-          "name": "Trevor Gurd",
-          "school": "Handsworth"
-        },
-        {
-          "name": "Finlay Bubbs",
-          "school": "Pemberton"
-        },
-        {
           "name": "Nathaniel Pica",
           "school": "Handsworth"
-        },
-        {
-          "name": "Dylan Lilley",
-          "school": "Argyle"
         },
         {
           "name": "Caige Udagawa",
           "school": "Burnaby Mtn"
         },
         {
-          "name": "Tristan Ng",
-          "school": "Burnaby Mtn"
+          "name": "Zachary Jiminez",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Trevor Gurd",
+          "school": "Handsworth"
+        },
+        {
+          "name": "William Elliott",
+          "school": "STA"
+        },
+        {
+          "name": "Finlay Bubbs",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Shae O'Boyle",
+          "school": "STA"
+        },
+        {
+          "name": "Mateo Ortiz",
+          "school": "Sutherland"
         }
       ],
       "Jr Boys": [
@@ -1205,12 +1205,12 @@
           "school": "Howe Sound"
         },
         {
-          "name": "Oz Olund",
-          "school": "Mulgrave"
-        },
-        {
           "name": "Holden Adams",
           "school": "Pemberton"
+        },
+        {
+          "name": "Oz Olund",
+          "school": "Mulgrave"
         },
         {
           "name": "Max Campbell",
@@ -1281,12 +1281,12 @@
           "school": "Argyle"
         },
         {
-          "name": "Jaiden England",
-          "school": "Brockton"
-        },
-        {
           "name": "Liam Leaver",
           "school": "Argyle"
+        },
+        {
+          "name": "Jaiden England",
+          "school": "Brockton"
         },
         {
           "name": "James Harris",
@@ -1523,6 +1523,10 @@
           "school": "St. Georges"
         },
         {
+          "name": "Bruckner Norman-Thiessen",
+          "school": "Collingwood"
+        },
+        {
           "name": "Oliver Parkinson",
           "school": "Seycove"
         },
@@ -1617,12 +1621,12 @@
           "school": "Mulgrave"
         },
         {
-          "name": "Elias Newby",
-          "school": "Don Ross"
-        },
-        {
           "name": "William Grant",
           "school": "Windsor"
+        },
+        {
+          "name": "Elias Newby",
+          "school": "Don Ross"
         },
         {
           "name": "Martin Cernicka",
