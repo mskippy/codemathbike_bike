@@ -2,16 +2,16 @@
   "teams": {
     "Bant Boys": [
       {
-        "name": "Coast Mtn",
-        "points": 631
-      },
-      {
         "name": "Pemberton",
         "points": 507
       },
       {
         "name": "Don Ross",
         "points": 488
+      },
+      {
+        "name": "Coast Mtn",
+        "points": 436
       }
     ],
     "Bant/Juv Girls": [
@@ -52,8 +52,8 @@
         "points": 780
       },
       {
-        "name": "Whistler",
-        "points": 645
+        "name": "Windsor",
+        "points": 490
       }
     ],
     "Juv Boys": [
@@ -223,9 +223,19 @@
     ],
     "Sr Girls": [
       {
+        "name": "Emelie Kvick",
+        "school": "Windsor",
+        "points": 285.0
+      },
+      {
         "name": "Elia Comeau",
         "school": "Handsworth",
         "points": 255.0
+      },
+      {
+        "name": "Isla Gibson",
+        "school": "Windsor",
+        "points": 225.0
       },
       {
         "name": "Lilly McGowan",
@@ -236,16 +246,6 @@
         "name": "Grace Cleland",
         "school": "Pemberton",
         "points": 200.0
-      },
-      {
-        "name": "Abbie Glavas",
-        "school": "Pemberton",
-        "points": 190.0
-      },
-      {
-        "name": "Emelie Kvick",
-        "school": "Windsor",
-        "points": 185.0
       }
     ],
     "Jr Boys": [

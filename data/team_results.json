@@ -185,14 +185,14 @@
       "Total": 780
     },
     {
-      "School": "Whistler",
-      "Race1": 132.0,
-      "Race2": 238.0,
-      "Race3": 275.0,
+      "School": "Windsor",
+      "Race1": "",
+      "Race2": 225.0,
+      "Race3": 265.0,
       "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 645
+      "Total": 490
     },
     {
       "School": "Howe Sound",
@@ -203,6 +203,16 @@
       "Race5": "",
       "Race6": "",
       "Total": 486
+    },
+    {
+      "School": "Whistler",
+      "Race1": 132.0,
+      "Race2": 238.0,
+      "Race3": "",
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
+      "Total": 370
     }
   ],
   "Bant/Juv Girls": [
@@ -231,9 +241,9 @@
       "Race1": 220.0,
       "Race2": "",
       "Race3": 220.0,
-      "Race4": 0.0,
-      "Race5": 0.0,
-      "Race6": 0.0,
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
       "Total": 440
     },
     {
@@ -311,23 +321,13 @@
   ],
   "Bant Boys": [
     {
-      "School": "Coast Mtn",
-      "Race1": 237.0,
-      "Race2": 199.0,
-      "Race3": 195.0,
-      "Race4": "",
-      "Race5": "",
-      "Race6": "",
-      "Total": 631
-    },
-    {
       "School": "Pemberton",
       "Race1": 168.0,
       "Race2": 178.0,
       "Race3": 161.0,
-      "Race4": 0.0,
-      "Race5": 0.0,
-      "Race6": 0.0,
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
       "Total": 507
     },
     {
@@ -339,6 +339,16 @@
       "Race5": "",
       "Race6": "",
       "Total": 488
+    },
+    {
+      "School": "Coast Mtn",
+      "Race1": 237.0,
+      "Race2": 199.0,
+      "Race3": "",
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
+      "Total": 436
     },
     {
       "School": "St. Georges",
@@ -395,9 +405,9 @@
       "Race1": "",
       "Race2": "",
       "Race3": 66.0,
-      "Race4": 0.0,
-      "Race5": 0.0,
-      "Race6": 0.0,
+      "Race4": "",
+      "Race5": "",
+      "Race6": "",
       "Total": 66
     }
   ]
