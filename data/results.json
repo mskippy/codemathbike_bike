@@ -113,33 +113,6 @@
         "points": 333
       }
     ],
-    "Bant Girls": [
-      {
-        "name": "Indy Tomic",
-        "school": "STA",
-        "points": 400
-      },
-      {
-        "name": "Marie Crowell",
-        "school": "Pemberton",
-        "points": 365
-      },
-      {
-        "name": "Mackenzie Velaniskis",
-        "school": "Coast Mtn",
-        "points": 335
-      },
-      {
-        "name": "Olivia Shin",
-        "school": "STA",
-        "points": 330
-      },
-      {
-        "name": "Piper Fear",
-        "school": "Pemberton",
-        "points": 225
-      }
-    ],
     "Juv Boys": [
       {
         "name": "Matthew Crockford",
@@ -165,60 +138,6 @@
         "name": "Jared Kalisch",
         "school": "Seycove",
         "points": 346
-      }
-    ],
-    "Jr Girls": [
-      {
-        "name": "Tyler McIntosh",
-        "school": "Seycove",
-        "points": 460
-      },
-      {
-        "name": "Norah Glavas",
-        "school": "Pemberton",
-        "points": 450
-      },
-      {
-        "name": "Anja Taylor",
-        "school": "Pemberton",
-        "points": 335
-      },
-      {
-        "name": "Annelise Cliburn",
-        "school": "Argyle",
-        "points": 330
-      },
-      {
-        "name": "Sophia Judson",
-        "school": "Argyle",
-        "points": 313
-      }
-    ],
-    "Sr Girls": [
-      {
-        "name": "Emelie Kvick",
-        "school": "Windsor",
-        "points": 470
-      },
-      {
-        "name": "Elia Comeau",
-        "school": "Handsworth",
-        "points": 425
-      },
-      {
-        "name": "Isla Gibson",
-        "school": "Windsor",
-        "points": 395
-      },
-      {
-        "name": "Lily McGowan",
-        "school": "Whistler",
-        "points": 378
-      },
-      {
-        "name": "Anna Selecka",
-        "school": "Handsworth",
-        "points": 340
       }
     ],
     "Juv Girls": [
@@ -275,6 +194,33 @@
         "points": 319
       }
     ],
+    "Jr Girls": [
+      {
+        "name": "Tyler McIntosh",
+        "school": "Seycove",
+        "points": 460
+      },
+      {
+        "name": "Norah Glavas",
+        "school": "Pemberton",
+        "points": 450
+      },
+      {
+        "name": "Anja Taylor",
+        "school": "Pemberton",
+        "points": 335
+      },
+      {
+        "name": "Annelise Cliburn",
+        "school": "Argyle",
+        "points": 330
+      },
+      {
+        "name": "Sophia Judson",
+        "school": "Argyle",
+        "points": 313
+      }
+    ],
     "Sr Boys": [
       {
         "name": "Jonah Rickard",
@@ -300,6 +246,60 @@
         "name": "Oliver Koch",
         "school": "Whistler",
         "points": 300
+      }
+    ],
+    "Sr Girls": [
+      {
+        "name": "Emelie Kvick",
+        "school": "Windsor",
+        "points": 470
+      },
+      {
+        "name": "Elia Comeau",
+        "school": "Handsworth",
+        "points": 425
+      },
+      {
+        "name": "Isla Gibson",
+        "school": "Windsor",
+        "points": 395
+      },
+      {
+        "name": "Lily McGowan",
+        "school": "Whistler",
+        "points": 378
+      },
+      {
+        "name": "Anna Selecka",
+        "school": "Handsworth",
+        "points": 340
+      }
+    ],
+    "Bant Girls": [
+      {
+        "name": "Indy Tomic",
+        "school": "STA",
+        "points": 400
+      },
+      {
+        "name": "Marie Crowell",
+        "school": "Pemberton",
+        "points": 365
+      },
+      {
+        "name": "Mackenzie Velaniskis",
+        "school": "Coast Mtn",
+        "points": 335
+      },
+      {
+        "name": "Olivia Shin",
+        "school": "STA",
+        "points": 330
+      },
+      {
+        "name": "Piper Fear",
+        "school": "Pemberton",
+        "points": 225
       }
     ]
   }
