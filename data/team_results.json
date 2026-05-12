@@ -6,9 +6,9 @@
       "Race2": 345.0,
       "Race3": 256.0,
       "Race4": 320.0,
-      "Race5": 320.0,
+      "Race5": 245.0,
       "Race6": "",
-      "Total": 1476
+      "Total": 1401
     },
     {
       "School": "Carson",
@@ -16,9 +16,9 @@
       "Race2": 223.0,
       "Race3": 283.0,
       "Race4": 238.0,
-      "Race5": 238.0,
+      "Race5": 269.0,
       "Race6": "",
-      "Total": 1275
+      "Total": 1306
     },
     {
       "School": "Pemberton",
@@ -26,19 +26,9 @@
       "Race2": 181.0,
       "Race3": 243.0,
       "Race4": 146.0,
-      "Race5": 146.0,
+      "Race5": 157.0,
       "Race6": "",
-      "Total": 949
-    },
-    {
-      "School": "Sutherland",
-      "Race1": 147.0,
-      "Race2": 153.0,
-      "Race3": 137.0,
-      "Race4": 188.0,
-      "Race5": 188.0,
-      "Race6": "",
-      "Total": 813
+      "Total": 960
     },
     {
       "School": "Howe Sound",
@@ -46,9 +36,19 @@
       "Race2": 194.0,
       "Race3": 124.0,
       "Race4": 116.0,
-      "Race5": 116.0,
+      "Race5": 274.0,
       "Race6": "",
-      "Total": 732
+      "Total": 890
+    },
+    {
+      "School": "Sutherland",
+      "Race1": 147.0,
+      "Race2": 153.0,
+      "Race3": 137.0,
+      "Race4": 188.0,
+      "Race5": 114.0,
+      "Race6": "",
+      "Total": 739
     },
     {
       "School": "Whistler",
@@ -56,9 +56,9 @@
       "Race2": 192.0,
       "Race3": "",
       "Race4": 236.0,
-      "Race5": 236.0,
+      "Race5": 242.0,
       "Race6": "",
-      "Total": 664
+      "Total": 670
     },
     {
       "School": "STA",
@@ -66,9 +66,9 @@
       "Race2": 127.0,
       "Race3": 104.0,
       "Race4": 144.0,
-      "Race5": 144.0,
+      "Race5": 153.0,
       "Race6": "",
-      "Total": 623
+      "Total": 632
     },
     {
       "School": "Argyle",
@@ -76,9 +76,9 @@
       "Race2": 48.0,
       "Race3": 99.0,
       "Race4": 90.0,
-      "Race5": 90.0,
+      "Race5": 74.0,
       "Race6": "",
-      "Total": 430
+      "Total": 414
     },
     {
       "School": "Burnaby Mtn",
@@ -86,9 +86,9 @@
       "Race2": 3.0,
       "Race3": 21.0,
       "Race4": 5.0,
-      "Race5": 5.0,
+      "Race5": "",
       "Race6": "",
-      "Total": 73
+      "Total": 68
     },
     {
       "School": "St. Georges",
@@ -96,9 +96,9 @@
       "Race2": 18.0,
       "Race3": "",
       "Race4": 19.0,
-      "Race5": 19.0,
+      "Race5": 24.0,
       "Race6": "",
-      "Total": 56
+      "Total": 61
     }
   ],
   "Jr Boys": [
@@ -108,9 +108,9 @@
       "Race2": 290.0,
       "Race3": 222.0,
       "Race4": 215.0,
-      "Race5": 215.0,
+      "Race5": 243.0,
       "Race6": "",
-      "Total": 1262
+      "Total": 1290
     },
     {
       "School": "Handsworth",
@@ -118,9 +118,9 @@
       "Race2": 221.0,
       "Race3": 283.0,
       "Race4": 240.0,
-      "Race5": 240.0,
+      "Race5": 271.0,
       "Race6": "",
-      "Total": 1226
+      "Total": 1257
     },
     {
       "School": "Argyle",
@@ -128,9 +128,9 @@
       "Race2": 224.0,
       "Race3": 270.0,
       "Race4": 197.0,
-      "Race5": 197.0,
+      "Race5": 217.0,
       "Race6": "",
-      "Total": 1138
+      "Total": 1158
     },
     {
       "School": "Pemberton",
@@ -138,9 +138,9 @@
       "Race2": 293.0,
       "Race3": 90.0,
       "Race4": 261.0,
-      "Race5": 261.0,
+      "Race5": 199.0,
       "Race6": "",
-      "Total": 1066
+      "Total": 1004
     },
     {
       "School": "Whistler",
@@ -148,9 +148,9 @@
       "Race2": 123.0,
       "Race3": 228.0,
       "Race4": 232.0,
-      "Race5": 232.0,
+      "Race5": 201.0,
       "Race6": "",
-      "Total": 974
+      "Total": 943
     },
     {
       "School": "Brockton",
@@ -158,9 +158,9 @@
       "Race2": 125.0,
       "Race3": 102.0,
       "Race4": 97.0,
-      "Race5": 97.0,
+      "Race5": 115.0,
       "Race6": "",
-      "Total": 421
+      "Total": 439
     }
   ],
   "Jr/Sr Girls": [
@@ -170,9 +170,9 @@
       "Race2": 310.0,
       "Race3": 320.0,
       "Race4": 315.0,
-      "Race5": 315.0,
+      "Race5": 325.0,
       "Race6": "",
-      "Total": 1555
+      "Total": 1565
     },
     {
       "School": "Argyle",
@@ -180,19 +180,9 @@
       "Race2": 270.0,
       "Race3": 250.0,
       "Race4": 243.0,
-      "Race5": 243.0,
+      "Race5": 178.0,
       "Race6": "",
-      "Total": 1266
-    },
-    {
-      "School": "Whistler",
-      "Race1": 132.0,
-      "Race2": 238.0,
-      "Race3": "",
-      "Race4": 300.0,
-      "Race5": 300.0,
-      "Race6": "",
-      "Total": 970
+      "Total": 1201
     },
     {
       "School": "Windsor",
@@ -200,9 +190,19 @@
       "Race2": 225.0,
       "Race3": 265.0,
       "Race4": 225.0,
-      "Race5": 225.0,
+      "Race5": 250.0,
       "Race6": "",
-      "Total": 940
+      "Total": 965
+    },
+    {
+      "School": "Whistler",
+      "Race1": 132.0,
+      "Race2": 238.0,
+      "Race3": "",
+      "Race4": 300.0,
+      "Race5": 220.0,
+      "Race6": "",
+      "Total": 890
     },
     {
       "School": "Howe Sound",
@@ -210,9 +210,9 @@
       "Race2": 248.0,
       "Race3": "",
       "Race4": "",
-      "Race5": "",
+      "Race5": 240.0,
       "Race6": "",
-      "Total": 486
+      "Total": 726
     },
     {
       "School": "Carson",
@@ -220,9 +220,9 @@
       "Race2": "",
       "Race3": "",
       "Race4": 157.0,
-      "Race5": 157.0,
+      "Race5": 55.0,
       "Race6": "",
-      "Total": 314
+      "Total": 212
     }
   ],
   "Bant/Juv Girls": [
@@ -232,9 +232,9 @@
       "Race2": 318.0,
       "Race3": 248.0,
       "Race4": 215.0,
-      "Race5": 215.0,
+      "Race5": 300.0,
       "Race6": "",
-      "Total": 1242
+      "Total": 1327
     },
     {
       "School": "Pemberton",
@@ -242,9 +242,9 @@
       "Race2": "",
       "Race3": 167.0,
       "Race4": 238.0,
-      "Race5": 238.0,
+      "Race5": 293.0,
       "Race6": "",
-      "Total": 878
+      "Total": 933
     },
     {
       "School": "Argyle",
@@ -252,9 +252,9 @@
       "Race2": 241.0,
       "Race3": 200.0,
       "Race4": "",
-      "Race5": "",
+      "Race5": 180.0,
       "Race6": "",
-      "Total": 678
+      "Total": 858
     },
     {
       "School": "Coast Mtn",
@@ -262,9 +262,19 @@
       "Race2": "",
       "Race3": 220.0,
       "Race4": "",
-      "Race5": "",
+      "Race5": 195.0,
       "Race6": "",
-      "Total": 440
+      "Total": 635
+    },
+    {
+      "School": "Don Ross",
+      "Race1": "",
+      "Race2": "",
+      "Race3": "",
+      "Race4": "",
+      "Race5": 270.0,
+      "Race6": "",
+      "Total": 270
     }
   ],
   "Juv Boys": [
@@ -274,9 +284,9 @@
       "Race2": 345.0,
       "Race3": 264.0,
       "Race4": 308.0,
-      "Race5": 308.0,
+      "Race5": 266.0,
       "Race6": "",
-      "Total": 1519
+      "Total": 1477
     },
     {
       "School": "Collingwood",
@@ -284,19 +294,9 @@
       "Race2": 187.0,
       "Race3": 233.0,
       "Race4": 206.0,
-      "Race5": 206.0,
+      "Race5": 184.0,
       "Race6": "",
-      "Total": 1019
-    },
-    {
-      "School": "Seycove",
-      "Race1": 253.0,
-      "Race2": 246.0,
-      "Race3": "",
-      "Race4": 201.0,
-      "Race5": 201.0,
-      "Race6": "",
-      "Total": 901
+      "Total": 997
     },
     {
       "School": "Handsworth",
@@ -304,9 +304,19 @@
       "Race2": 102.0,
       "Race3": 276.0,
       "Race4": 159.0,
-      "Race5": 159.0,
+      "Race5": 157.0,
       "Race6": "",
-      "Total": 869
+      "Total": 867
+    },
+    {
+      "School": "Seycove",
+      "Race1": 253.0,
+      "Race2": 246.0,
+      "Race3": "",
+      "Race4": 201.0,
+      "Race5": 157.0,
+      "Race6": "",
+      "Total": 857
     },
     {
       "School": "Sutherland",
@@ -314,9 +324,9 @@
       "Race2": 148.0,
       "Race3": 169.0,
       "Race4": 162.0,
-      "Race5": 162.0,
+      "Race5": 133.0,
       "Race6": "",
-      "Total": 785
+      "Total": 756
     },
     {
       "School": "Don Ross",
@@ -324,9 +334,9 @@
       "Race2": "",
       "Race3": "",
       "Race4": 216.0,
-      "Race5": 216.0,
+      "Race5": 310.0,
       "Race6": "",
-      "Total": 432
+      "Total": 526
     },
     {
       "School": "Pemberton",
@@ -334,9 +344,9 @@
       "Race2": 141.0,
       "Race3": "",
       "Race4": "",
-      "Race5": "",
+      "Race5": 217.0,
       "Race6": "",
-      "Total": 141
+      "Total": 358
     }
   ],
   "Bant Boys": [
@@ -346,9 +356,9 @@
       "Race2": 208.0,
       "Race3": "",
       "Race4": 340.0,
-      "Race5": 340.0,
+      "Race5": 310.0,
       "Race6": "",
-      "Total": 1168
+      "Total": 1138
     },
     {
       "School": "Pemberton",
@@ -356,39 +366,9 @@
       "Race2": 178.0,
       "Race3": 161.0,
       "Race4": 194.0,
-      "Race5": 194.0,
+      "Race5": 177.0,
       "Race6": "",
-      "Total": 895
-    },
-    {
-      "School": "St. Georges",
-      "Race1": 160.0,
-      "Race2": 89.0,
-      "Race3": 122.0,
-      "Race4": 150.0,
-      "Race5": 150.0,
-      "Race6": "",
-      "Total": 671
-    },
-    {
-      "School": "Argyle",
-      "Race1": 73.0,
-      "Race2": 116.0,
-      "Race3": 178.0,
-      "Race4": 151.0,
-      "Race5": 151.0,
-      "Race6": "",
-      "Total": 669
-    },
-    {
-      "School": "Handsworth",
-      "Race1": 98.0,
-      "Race2": "",
-      "Race3": 208.0,
-      "Race4": 164.0,
-      "Race5": 164.0,
-      "Race6": "",
-      "Total": 634
+      "Total": 878
     },
     {
       "School": "Coast Mtn",
@@ -396,9 +376,49 @@
       "Race2": 199.0,
       "Race3": "",
       "Race4": "",
+      "Race5": 213.0,
+      "Race6": "",
+      "Total": 649
+    },
+    {
+      "School": "St. Georges",
+      "Race1": 160.0,
+      "Race2": 89.0,
+      "Race3": 122.0,
+      "Race4": 150.0,
+      "Race5": 102.0,
+      "Race6": "",
+      "Total": 623
+    },
+    {
+      "School": "Handsworth",
+      "Race1": 98.0,
+      "Race2": "",
+      "Race3": 208.0,
+      "Race4": 164.0,
+      "Race5": 143.0,
+      "Race6": "",
+      "Total": 613
+    },
+    {
+      "School": "Argyle",
+      "Race1": 73.0,
+      "Race2": 116.0,
+      "Race3": 178.0,
+      "Race4": 151.0,
       "Race5": "",
       "Race6": "",
-      "Total": 436
+      "Total": 518
+    },
+    {
+      "School": "Whistler",
+      "Race1": "",
+      "Race2": 176.0,
+      "Race3": "",
+      "Race4": "",
+      "Race5": 156.0,
+      "Race6": "",
+      "Total": 332
     },
     {
       "School": "Sutherland",
@@ -416,19 +436,9 @@
       "Race2": "",
       "Race3": 66.0,
       "Race4": 63.0,
-      "Race5": 63.0,
-      "Race6": "",
-      "Total": 192
-    },
-    {
-      "School": "Whistler",
-      "Race1": "",
-      "Race2": 176.0,
-      "Race3": "",
-      "Race4": "",
       "Race5": "",
       "Race6": "",
-      "Total": 176
+      "Total": 129
     }
   ]
 }

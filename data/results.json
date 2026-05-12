@@ -3,85 +3,85 @@
     "Bant Boys": [
       {
         "name": "Don Ross",
-        "points": 1168
-      },
-      {
-        "name": "Pemberton",
-        "points": 895
-      },
-      {
-        "name": "St. Georges",
-        "points": 671
-      }
-    ],
-    "Bant/Juv Girls": [
-      {
-        "name": "Whistler",
-        "points": 1242
+        "points": 1138
       },
       {
         "name": "Pemberton",
         "points": 878
       },
       {
+        "name": "Coast Mtn",
+        "points": 649
+      }
+    ],
+    "Bant/Juv Girls": [
+      {
+        "name": "Whistler",
+        "points": 1327
+      },
+      {
+        "name": "Pemberton",
+        "points": 933
+      },
+      {
         "name": "Argyle",
-        "points": 678
+        "points": 858
       }
     ],
     "Jr Boys": [
       {
         "name": "Howe Sound",
-        "points": 1262
+        "points": 1290
       },
       {
         "name": "Handsworth",
-        "points": 1226
+        "points": 1257
       },
       {
         "name": "Argyle",
-        "points": 1138
+        "points": 1158
       }
     ],
     "Jr/Sr Girls": [
       {
         "name": "Pemberton",
-        "points": 1555
+        "points": 1565
       },
       {
         "name": "Argyle",
-        "points": 1266
+        "points": 1201
       },
       {
-        "name": "Whistler",
-        "points": 970
+        "name": "Windsor",
+        "points": 965
       }
     ],
     "Juv Boys": [
       {
         "name": "Argyle",
-        "points": 1519
+        "points": 1477
       },
       {
         "name": "Collingwood",
-        "points": 1019
+        "points": 997
       },
       {
-        "name": "Seycove",
-        "points": 901
+        "name": "Handsworth",
+        "points": 867
       }
     ],
     "Sr Boys": [
       {
         "name": "Handsworth",
-        "points": 1476
+        "points": 1401
       },
       {
         "name": "Carson",
-        "points": 1275
+        "points": 1306
       },
       {
         "name": "Pemberton",
-        "points": 949
+        "points": 960
       }
     ]
   },
