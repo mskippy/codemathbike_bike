@@ -204,12 +204,12 @@
           "school": "Burnaby Mtn"
         },
         {
-          "name": "Harrison Hume",
-          "school": "Coast Mtn"
-        },
-        {
           "name": "Finlay Bubbs",
           "school": "Pemberton"
+        },
+        {
+          "name": "Harrison Hume",
+          "school": "Coast Mtn"
         }
       ],
       "Jr Boys": [
@@ -378,20 +378,20 @@
           "school": "Brockton"
         },
         {
-          "name": "Gerardo Reyes Elisio",
-          "school": "Howe Sound"
-        },
-        {
-          "name": "Evan Kozak",
-          "school": "Coast Mtn"
+          "name": "Jeremy Smerychynski",
+          "school": "Whistler"
         },
         {
           "name": "Cole Vrsnik",
           "school": "Mulgrave"
         },
         {
-          "name": "Jeremy Smerychynski",
-          "school": "Whistler"
+          "name": "Gerardo Reyes Elisio",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Evan Kozak",
+          "school": "Coast Mtn"
         }
       ],
       "Juv Boys": [
@@ -1131,16 +1131,40 @@
           "school": "St. Georges"
         },
         {
+          "name": "Isaac Flegal",
+          "school": "Argyle"
+        },
+        {
+          "name": "Nathaniel Pica",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Jayin Charan",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Leif Montgomery",
+          "school": "Argyle"
+        },
+        {
+          "name": "William Elliott",
+          "school": "STA"
+        },
+        {
+          "name": "Mateo Ortiz",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Shae O'Boyle",
+          "school": "STA"
+        },
+        {
           "name": "Tristan Ng",
           "school": "Burnaby Mtn"
         },
         {
           "name": "Carter Bucci",
           "school": "Brockton"
-        },
-        {
-          "name": "Isaac Flegal",
-          "school": "Argyle"
         },
         {
           "name": "Dylan Lilley",
@@ -1151,24 +1175,16 @@
           "school": "Argyle"
         },
         {
-          "name": "Leif Montgomery",
-          "school": "Argyle"
+          "name": "Caige Udagawa",
+          "school": "Burnaby Mtn"
         },
         {
           "name": "Hyunseo Ryu",
           "school": "Argyle"
         },
         {
-          "name": "Jayin Charan",
-          "school": "Burnaby Mtn"
-        },
-        {
-          "name": "Nathaniel Pica",
-          "school": "Handsworth"
-        },
-        {
-          "name": "Caige Udagawa",
-          "school": "Burnaby Mtn"
+          "name": "Finlay Bubbs",
+          "school": "Pemberton"
         },
         {
           "name": "Zachary Jiminez",
@@ -1177,22 +1193,6 @@
         {
           "name": "Trevor Gurd",
           "school": "Handsworth"
-        },
-        {
-          "name": "William Elliott",
-          "school": "STA"
-        },
-        {
-          "name": "Finlay Bubbs",
-          "school": "Pemberton"
-        },
-        {
-          "name": "Shae O'Boyle",
-          "school": "STA"
-        },
-        {
-          "name": "Mateo Ortiz",
-          "school": "Sutherland"
         }
       ],
       "Jr Boys": [
@@ -1205,12 +1205,12 @@
           "school": "Howe Sound"
         },
         {
-          "name": "Holden Adams",
-          "school": "Pemberton"
-        },
-        {
           "name": "Oz Olund",
           "school": "Mulgrave"
+        },
+        {
+          "name": "Holden Adams",
+          "school": "Pemberton"
         },
         {
           "name": "Max Campbell",
@@ -1281,12 +1281,12 @@
           "school": "Argyle"
         },
         {
-          "name": "Liam Leaver",
-          "school": "Argyle"
-        },
-        {
           "name": "Jaiden England",
           "school": "Brockton"
+        },
+        {
+          "name": "Liam Leaver",
+          "school": "Argyle"
         },
         {
           "name": "James Harris",
@@ -1551,12 +1551,12 @@
           "school": "Carson"
         },
         {
-          "name": "Nolan Mckinney",
-          "school": "Argyle"
-        },
-        {
           "name": "Yousef Alwakees",
           "school": "Seycove"
+        },
+        {
+          "name": "Nolan Mckinney",
+          "school": "Argyle"
         },
         {
           "name": "Oliver Reedman",
@@ -2760,11 +2760,11 @@
           "school": "Whistler"
         },
         {
-          "name": "Dylan Saulnier",
+          "name": "Skylar Rodier",
           "school": "Pemberton"
         },
         {
-          "name": "Skylar Rodier",
+          "name": "Dylan Saulnier",
           "school": "Pemberton"
         }
       ],
@@ -3037,7 +3037,19 @@
           "school": "Burnaby Mtn"
         },
         {
-          "name": "Caige Udagawa",
+          "name": "Oscar Tarling",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Bennet Scheider",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "India Becker",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Will Burkett",
           "school": "Burnaby Mtn"
         },
         {
@@ -3049,36 +3061,24 @@
           "school": "Argyle"
         },
         {
-          "name": "Bennet Scheider",
-          "school": "Howe Sound"
-        },
-        {
-          "name": "Will Burkett",
-          "school": "Burnaby Mtn"
-        },
-        {
-          "name": "Charles Ho ",
+          "name": "Henry Harland",
           "school": "St. Georges"
+        },
+        {
+          "name": "Caige Udagawa",
+          "school": "Burnaby Mtn"
         },
         {
           "name": "Finlay Bubbs",
           "school": "Pemberton"
         },
         {
-          "name": "Oscar Tarling",
-          "school": "Pemberton"
-        },
-        {
-          "name": "Henry Harland",
-          "school": "St. Georges"
-        },
-        {
           "name": "Emil Reischl",
           "school": "Rockridge"
         },
         {
-          "name": "India Becker",
-          "school": "Pemberton"
+          "name": "Charles Ho ",
+          "school": "St. Georges"
         }
       ],
       "Jr Boys": [
@@ -3972,11 +3972,11 @@
           "school": "Handsworth"
         },
         {
-          "name": "Satoru Yamaguchi",
+          "name": "Kai Nunes",
           "school": "Argyle"
         },
         {
-          "name": "Kai Nunes",
+          "name": "Satoru Yamaguchi",
           "school": "Argyle"
         },
         {
@@ -4084,24 +4084,24 @@
           "school": "Argyle"
         },
         {
+          "name": "Markus Leung",
+          "school": "Argyle"
+        },
+        {
           "name": "Carter Bucci",
           "school": "Brockton"
         },
         {
-          "name": "Luke Mulyono",
-          "school": "GW Graham"
-        },
-        {
-          "name": "Markus Leung",
-          "school": "Argyle"
+          "name": "Finlay Bubbs",
+          "school": "Pemberton"
         },
         {
           "name": "Charles Ho ",
           "school": "St. Georges"
         },
         {
-          "name": "Finlay Bubbs",
-          "school": "Pemberton"
+          "name": "Luke Mulyono",
+          "school": "GW Graham"
         }
       ],
       "Jr Boys": [
@@ -4282,20 +4282,20 @@
           "school": "Brockton"
         },
         {
-          "name": "Lucas Allen",
-          "school": "Carson"
-        },
-        {
-          "name": "Brady Mallon",
-          "school": "GW Graham"
-        },
-        {
           "name": "Logan Scarlett",
           "school": "Howe Sound"
         },
         {
+          "name": "Lucas Allen",
+          "school": "Carson"
+        },
+        {
           "name": "Gray Kirker",
           "school": "St. Georges"
+        },
+        {
+          "name": "Brady Mallon",
+          "school": "GW Graham"
         }
       ],
       "Juv Boys": [
@@ -4480,20 +4480,20 @@
           "school": "West Van"
         },
         {
-          "name": "Alexander Moran",
-          "school": "Chatelech"
+          "name": "Bradley Harris",
+          "school": "Sutherland"
         },
         {
           "name": "Logan Weiss-Podolski",
           "school": "Carson"
         },
         {
-          "name": "Ben Macpherson",
-          "school": "Handsworth"
+          "name": "Alexander Moran",
+          "school": "Chatelech"
         },
         {
-          "name": "Bradley Harris",
-          "school": "Sutherland"
+          "name": "Ben Macpherson",
+          "school": "Handsworth"
         }
       ],
       "Bant Boys": [
@@ -4730,11 +4730,11 @@
           "school": "Carson"
         },
         {
-          "name": "Jasmine Macpherson",
+          "name": "Zoe Steen",
           "school": "Carson"
         },
         {
-          "name": "Zoe Steen",
+          "name": "Jasmine Macpherson",
           "school": "Carson"
         }
       ],
@@ -4893,16 +4893,820 @@
   "Race 6": {
     "race_name": "R6 - Whistler XC",
     "boys": {
-      "Sr Boys": [],
-      "Jr Boys": [],
-      "Juv Boys": [],
-      "Bant Boys": []
+      "Sr Boys": [
+        {
+          "name": "James Pinfold",
+          "school": "Carson"
+        },
+        {
+          "name": "Oscar Tarling",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Rafe Hudson",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Riley Hobbs",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Jake Brackenbury",
+          "school": "Carson"
+        },
+        {
+          "name": "Easton Hestler",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Charles Suda",
+          "school": "STA"
+        },
+        {
+          "name": "Luke Mackie",
+          "school": "Carson"
+        },
+        {
+          "name": "Liam McNolty",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Bennet Scheider",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Isaac Flegal",
+          "school": "Argyle"
+        },
+        {
+          "name": "Rory Taylor",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Harry Duess",
+          "school": "Brockton"
+        },
+        {
+          "name": "Sam Fort",
+          "school": "Windsor"
+        },
+        {
+          "name": "Shu Yano",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Kaede Gossman",
+          "school": "Whistler"
+        },
+        {
+          "name": "Cove White",
+          "school": "Whistler"
+        },
+        {
+          "name": "Florian Ruoff",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Jonah Rickard",
+          "school": "Carson"
+        },
+        {
+          "name": "Declan Kirker",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Oliver Koch",
+          "school": "Whistler"
+        },
+        {
+          "name": "Tristan Benes",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Beckett Jiminez",
+          "school": "Collingwood"
+        },
+        {
+          "name": "India Becker",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Nathaniel Pica",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Eden Golan",
+          "school": "Carson"
+        },
+        {
+          "name": "Oscar Tschan",
+          "school": "Carson"
+        },
+        {
+          "name": "Carden Tomic",
+          "school": "STA"
+        },
+        {
+          "name": "Jack Watkins",
+          "school": "STA"
+        },
+        {
+          "name": "Damyen Bouvier",
+          "school": "Whistler"
+        },
+        {
+          "name": "Ruben Wright",
+          "school": "Argyle"
+        },
+        {
+          "name": "Markus Leung",
+          "school": "Argyle"
+        },
+        {
+          "name": "Miles Ferguson",
+          "school": "STA"
+        },
+        {
+          "name": "Jeanre Raubenheimer",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Noah Gradin",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Dexter White",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Trent McGrenera",
+          "school": "Carson"
+        },
+        {
+          "name": "Sam Roy",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Nate Morse",
+          "school": "Carson"
+        },
+        {
+          "name": "Satoru Yamaguchi",
+          "school": "Argyle"
+        },
+        {
+          "name": "Kai Nunes",
+          "school": "Argyle"
+        },
+        {
+          "name": "Leif Montgomery",
+          "school": "Argyle"
+        },
+        {
+          "name": "William Elliott",
+          "school": "STA"
+        },
+        {
+          "name": "Will Burkett",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Jayin Charan",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Tristan Ng",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Shae O'Boyle",
+          "school": "STA"
+        }
+      ],
+      "Jr Boys": [
+        {
+          "name": "Reed Murray",
+          "school": "Whistler"
+        },
+        {
+          "name": "Ethan Bookbinder",
+          "school": "Argyle"
+        },
+        {
+          "name": "Max Campbell",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Grayson Schulz",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Callum Brown",
+          "school": "Argyle"
+        },
+        {
+          "name": "Rory Lennon",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Hugh Ross",
+          "school": "Handsworth"
+        },
+        {
+          "name": "James Harris",
+          "school": "Argyle"
+        },
+        {
+          "name": "Oz Olund",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Lucas Allen",
+          "school": "Carson"
+        },
+        {
+          "name": "Finn Graeden",
+          "school": "West Van"
+        },
+        {
+          "name": "Jonah Petersen",
+          "school": "Handsworth"
+        },
+        {
+          "name": "John Farrell",
+          "school": "Seycove"
+        },
+        {
+          "name": "Eliot Simmons",
+          "school": "Argyle"
+        },
+        {
+          "name": "Jaiden England",
+          "school": "Brockton"
+        },
+        {
+          "name": "Byron Finlay",
+          "school": "Brockton"
+        },
+        {
+          "name": "Owen McDonald",
+          "school": "Seycove"
+        },
+        {
+          "name": "Benjamin Hill",
+          "school": "Argyle"
+        },
+        {
+          "name": "Nolan Magnessun",
+          "school": "Chatelech"
+        },
+        {
+          "name": "Jacob Chowdury",
+          "school": "Seycove"
+        },
+        {
+          "name": "Massimo Rossiello",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Nathan Muller",
+          "school": "Argyle"
+        },
+        {
+          "name": "Oliver Silcock",
+          "school": "Argyle"
+        },
+        {
+          "name": "Jacob Hudec",
+          "school": "Chatelech"
+        },
+        {
+          "name": "Leo Pullen",
+          "school": "Whistler"
+        },
+        {
+          "name": "Sawyer Munn-Gotto",
+          "school": "Whistler"
+        },
+        {
+          "name": "Ethan Isberg",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Liam Mistal",
+          "school": "Argyle"
+        },
+        {
+          "name": "Gavin Hardy",
+          "school": "Argyle"
+        },
+        {
+          "name": "Isaac Bucci",
+          "school": "Brockton"
+        },
+        {
+          "name": "Max Murray",
+          "school": "Whistler"
+        },
+        {
+          "name": "Charlie Sigston",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Dylan Macdonald",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Liam Leaver",
+          "school": "Argyle"
+        },
+        {
+          "name": "Cole Vrsnik",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Alistair Cook",
+          "school": "Sutherland"
+        }
+      ],
+      "Juv Boys": [
+        {
+          "name": "Finley Wood",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Monty Cormack",
+          "school": "Handsworth"
+        },
+        {
+          "name": "John Suda",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Matthew Crockford",
+          "school": "Argyle"
+        },
+        {
+          "name": "Nash Funreaux",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Simon Gonzales Hungr",
+          "school": "West Van"
+        },
+        {
+          "name": "Lucas Norbert",
+          "school": "Seycove"
+        },
+        {
+          "name": "Olivier Courcelles",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Matthew Runzer",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Keaton Swystun",
+          "school": "Argyle"
+        },
+        {
+          "name": "Ben Hall",
+          "school": "Argyle"
+        },
+        {
+          "name": "Blake Benns",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Stellan Ortved",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Nolan Mckinney",
+          "school": "Argyle"
+        },
+        {
+          "name": "Alexandre Legrand Comeau",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Pierre Gonzales Hungr",
+          "school": "West Van"
+        },
+        {
+          "name": "Theo Zaleski",
+          "school": "Argyle"
+        },
+        {
+          "name": "Kaeden Lau",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Harrison Watson",
+          "school": "Argyle"
+        },
+        {
+          "name": "Oliver Thatcher",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Bruckner Norman-Thiessen",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Bradley Harris",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Miles Trenouth",
+          "school": "Argyle"
+        },
+        {
+          "name": "Alexander Moran",
+          "school": "Chatelech"
+        },
+        {
+          "name": "Alexandre Roy",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Noah Ricignuolo",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Marcelo Maldifassi",
+          "school": "Carson"
+        },
+        {
+          "name": "Toby Stromer",
+          "school": "Argyle"
+        },
+        {
+          "name": "Daniel Munroe",
+          "school": "Argyle"
+        },
+        {
+          "name": "Charlie Jones",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Oliver Reedman",
+          "school": "Argyle"
+        },
+        {
+          "name": "Logan Weiss-Podolski",
+          "school": "Carson"
+        },
+        {
+          "name": "Bradeley Stephenson",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Platon Yaremych",
+          "school": "Brockton"
+        },
+        {
+          "name": "James Felix",
+          "school": "Windsor"
+        }
+      ],
+      "Bant Boys": [
+        {
+          "name": "Miles Deely",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Martin Cernicka",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Trent Bristow",
+          "school": "West Van"
+        },
+        {
+          "name": "Hayden Bristow",
+          "school": "West Van"
+        },
+        {
+          "name": "Asher Lissett",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Elias Newby",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Dash Nicoll",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Tristan Clark",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Oren Purdy",
+          "school": "Argyle"
+        },
+        {
+          "name": "Andrew Wenzlaff",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Jeronimo Gomez",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Teo Damici",
+          "school": "STA"
+        },
+        {
+          "name": "Kelyn Horsely",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Lennart Schilling",
+          "school": "Mulgrave"
+        },
+        {
+          "name": "Seth Andru",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Micah Treadway",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Bryce Weatherly",
+          "school": "Carson"
+        },
+        {
+          "name": "William Kolper",
+          "school": "Sutherland"
+        },
+        {
+          "name": "Jack Burt",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Max Remfry",
+          "school": "Argyle"
+        },
+        {
+          "name": "Alasdair Robertson",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Remy Zurbuchen",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Felix Carr",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Austin Bandic",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "Augusten Worsfold",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Yara Raouf Malayeri",
+          "school": "Burnaby Mtn"
+        },
+        {
+          "name": "David Shilletto",
+          "school": "St. Georges"
+        },
+        {
+          "name": "Luke McGowan",
+          "school": "Whistler"
+        },
+        {
+          "name": "Ryan Kearnes",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Anton Anghellescu",
+          "school": "Whistler"
+        },
+        {
+          "name": "Marcelo Alcocer Tremari",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Lucas Solis",
+          "school": "Rockridge"
+        },
+        {
+          "name": "Jack Walton",
+          "school": "Chatelech"
+        },
+        {
+          "name": "Arthur Scale",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Sean Weber",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Jivcko Elvir Sheilds",
+          "school": "Elphinstone"
+        },
+        {
+          "name": "Sebastian Sturgess",
+          "school": "Whistler"
+        },
+        {
+          "name": "Thomas Brown",
+          "school": "Whistler"
+        }
+      ]
     },
     "girls": {
-      "Sr Girls": [],
-      "Jr Girls": [],
-      "Juv Girls": [],
-      "Bant Girls": []
+      "Sr Girls": [
+        {
+          "name": "Emelie Kvick",
+          "school": "Windsor"
+        },
+        {
+          "name": "Elia Comeau",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Lily McGowan",
+          "school": "Whistler"
+        },
+        {
+          "name": "Jenaya Clegg ",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Claire Dickie",
+          "school": "Carson"
+        },
+        {
+          "name": "Charlotte Arnold",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Grace Cleland",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Anna Selecka",
+          "school": "Handsworth"
+        },
+        {
+          "name": "Emily Wilson",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Abbie Glavas",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Claire Benson",
+          "school": "Whistler"
+        },
+        {
+          "name": "Sophie Schiman",
+          "school": "Carson"
+        }
+      ],
+      "Jr Girls": [
+        {
+          "name": "Tyler McIntosh",
+          "school": "Seycove"
+        },
+        {
+          "name": "Norah Glavas",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Anja Taylor",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Abby Simpson ",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Maeve Lazar-Barry",
+          "school": "Howe Sound"
+        },
+        {
+          "name": "Ella Winter",
+          "school": "Whistler"
+        },
+        {
+          "name": "Sophia Judson",
+          "school": "Argyle"
+        },
+        {
+          "name": "Annelise Cliburn",
+          "school": "Argyle"
+        },
+        {
+          "name": "Mikayla Goldrick",
+          "school": "Whistler"
+        },
+        {
+          "name": "Isabelle Von der Porte",
+          "school": "Argyle"
+        },
+        {
+          "name": "Genevieve Juhasz",
+          "school": "STA"
+        },
+        {
+          "name": "Cleo Remfry",
+          "school": "Argyle"
+        }
+      ],
+      "Juv Girls": [
+        {
+          "name": "Alva Campos",
+          "school": "Whistler"
+        },
+        {
+          "name": "Maggie Hertz",
+          "school": "Whistler"
+        },
+        {
+          "name": "Stella Henderson",
+          "school": "Seycove"
+        },
+        {
+          "name": "Austin Lewis",
+          "school": "Whistler"
+        },
+        {
+          "name": "Maddy White",
+          "school": "Collingwood"
+        },
+        {
+          "name": "Lene Lok",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Amelie Rubio",
+          "school": "Argyle"
+        },
+        {
+          "name": "Ella Walsh",
+          "school": "Coast Mtn"
+        },
+        {
+          "name": "Skylar Rodier",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Vivienne Vroom",
+          "school": "Argyle"
+        },
+        {
+          "name": "Alexa Maxwell",
+          "school": "Whistler"
+        },
+        {
+          "name": "Josie Cooper",
+          "school": "Whistler"
+        },
+        {
+          "name": "Beatrix Reilly",
+          "school": "Argyle"
+        }
+      ],
+      "Bant Girls": [
+        {
+          "name": "Indy Tomic",
+          "school": "STA"
+        },
+        {
+          "name": "Hailey Bikerton",
+          "school": "Don Ross"
+        },
+        {
+          "name": "Marie Crowell",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Olivia Shin",
+          "school": "STA"
+        },
+        {
+          "name": "Piper Fear",
+          "school": "Pemberton"
+        },
+        {
+          "name": "Kaasia Kania",
+          "school": "Elphinstone"
+        }
+      ]
     }
   }
 }

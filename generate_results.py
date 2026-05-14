@@ -145,6 +145,9 @@ for division in df_individual["Division"].unique():
             "R5 Pts": row.get("R5 Pts", ""),
             "R6 Place": row.get("R6 Place", ""),
             "R6 Pts": row.get("R6 Pts", ""),
+            "total_score": row.get("Total", ""),
+            "low_score": row.get("Lowest Score", ""),
+            "top5": row.get("Top 5", ""),
             "points": row.get("Top 5", "")
         }
         riders.append(rider)

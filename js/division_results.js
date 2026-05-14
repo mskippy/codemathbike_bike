@@ -57,7 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <th>R4</th>
                 <th>R5</th>
                 <th>R6</th>
-                <th>Total</th>
+                <th>Total Score</th>
+                <th>Low Score</th>
+                <th>Top 5</th>
               </tr>
             </thead>
             <tbody>
@@ -76,7 +78,9 @@ document.addEventListener("DOMContentLoaded", () => {
               <td>${formatRace(r["R4 Place"], r["R4 Pts"])}</td>
               <td>${formatRace(r["R5 Place"], r["R5 Pts"])}</td>
               <td>${formatRace(r["R6 Place"], r["R6 Pts"])}</td>
-              <td><strong>${r.points ?? "-"}</strong></td>
+              <td>${r.total_score ?? "-"}</td>
+              <td>${r.low_score ?? "-"}</td>
+              <td><strong>${r.top5 ?? "-"}</strong></td>
             </tr>
           `;
         });

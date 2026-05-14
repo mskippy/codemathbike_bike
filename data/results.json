@@ -3,141 +3,141 @@
     "Bant Boys": [
       {
         "name": "Don Ross",
-        "points": 1138
+        "points": 1422
       },
       {
         "name": "Pemberton",
-        "points": 878
+        "points": 1023
       },
       {
-        "name": "Coast Mtn",
-        "points": 649
+        "name": "Handsworth",
+        "points": 817
       }
     ],
     "Bant/Juv Girls": [
       {
         "name": "Whistler",
-        "points": 1327
+        "points": 1660
       },
       {
         "name": "Pemberton",
-        "points": 933
+        "points": 1163
       },
       {
         "name": "Argyle",
-        "points": 858
+        "points": 1032
       }
     ],
     "Jr Boys": [
       {
-        "name": "Howe Sound",
-        "points": 1290
-      },
-      {
         "name": "Handsworth",
-        "points": 1257
+        "points": 1469
       },
       {
         "name": "Argyle",
-        "points": 1158
+        "points": 1445
+      },
+      {
+        "name": "Howe Sound",
+        "points": 1290
       }
     ],
     "Jr/Sr Girls": [
       {
         "name": "Pemberton",
-        "points": 1565
+        "points": 1895
       },
       {
         "name": "Argyle",
-        "points": 1201
+        "points": 1442
       },
       {
-        "name": "Windsor",
-        "points": 965
+        "name": "Whistler",
+        "points": 1168
       }
     ],
     "Juv Boys": [
       {
         "name": "Argyle",
-        "points": 1477
+        "points": 1717
       },
       {
         "name": "Collingwood",
-        "points": 997
+        "points": 1175
       },
       {
         "name": "Handsworth",
-        "points": 867
+        "points": 1067
       }
     ],
     "Sr Boys": [
       {
         "name": "Handsworth",
-        "points": 1401
+        "points": 1621
       },
       {
         "name": "Carson",
-        "points": 1306
+        "points": 1592
       },
       {
         "name": "Pemberton",
-        "points": 960
+        "points": 1204
       }
     ]
   },
   "riders": {
     "Bant Boys": [
       {
+        "name": "Kelyn Horsely",
+        "school": "Don Ross",
+        "points": 444
+      },
+      {
         "name": "Dash Nicoll",
         "school": "Pemberton",
-        "points": 425
+        "points": 440
       },
       {
         "name": "Elias\u00a0Newby",
         "school": "Don Ross",
-        "points": 400
-      },
-      {
-        "name": "Kelyn Horsely",
-        "school": "Don Ross",
-        "points": 395
+        "points": 415
       },
       {
         "name": "Hayden Bristow",
         "school": "West Van",
-        "points": 364
+        "points": 400
       },
       {
-        "name": "Andrew Simpson",
-        "school": "Coast Mtn",
-        "points": 333
+        "name": "Trent Bristow",
+        "school": "West Van",
+        "points": 358
       }
     ],
     "Juv Boys": [
       {
         "name": "Matthew Crockford",
         "school": "Argyle",
-        "points": 430
-      },
-      {
-        "name": "Alexandre Legrand Comeau",
-        "school": "Handsworth",
-        "points": 371
+        "points": 440
       },
       {
         "name": "Nash\u00a0Funreaux",
         "school": "Don Ross",
-        "points": 360
+        "points": 440
+      },
+      {
+        "name": "Alexandre Legrand Comeau",
+        "school": "Handsworth",
+        "points": 415
       },
       {
         "name": "John Suda",
         "school": "Collingwood",
-        "points": 348
+        "points": 385
       },
       {
-        "name": "Jared Kalisch",
-        "school": "Seycove",
-        "points": 346
+        "name": "Ben Hall",
+        "school": "Argyle",
+        "points": 357
       }
     ],
     "Juv Girls": [
@@ -154,29 +154,34 @@
       {
         "name": "Stella Henderson",
         "school": "Seycove",
-        "points": 380
-      },
-      {
-        "name": "Amelie Rubio",
-        "school": "Argyle",
-        "points": 375
+        "points": 410
       },
       {
         "name": "Austin Lewis",
         "school": "Whistler",
-        "points": 363
+        "points": 395
+      },
+      {
+        "name": "Lene Lok",
+        "school": "Don Ross",
+        "points": 390
       }
     ],
     "Jr Boys": [
       {
-        "name": "Finley Lloyd",
-        "school": "Howe Sound",
-        "points": 420
-      },
-      {
         "name": "Max Campbell",
         "school": "Handsworth",
-        "points": 415
+        "points": 425
+      },
+      {
+        "name": "Ethan Bookbinder",
+        "school": "Argyle",
+        "points": 388
+      },
+      {
+        "name": "Finley Lloyd",
+        "school": "Howe Sound",
+        "points": 355
       },
       {
         "name": "Max Murray",
@@ -184,41 +189,36 @@
         "points": 352
       },
       {
-        "name": "Ethan Bookbinder",
-        "school": "Argyle",
-        "points": 330
-      },
-      {
-        "name": "Charlie Sigston",
-        "school": "Handsworth",
-        "points": 319
+        "name": "Grayson Schulz",
+        "school": "Howe Sound",
+        "points": 348
       }
     ],
     "Jr Girls": [
       {
         "name": "Tyler McIntosh",
         "school": "Seycove",
-        "points": 460
+        "points": 480
       },
       {
         "name": "Norah Glavas",
         "school": "Pemberton",
-        "points": 450
+        "points": 475
       },
       {
         "name": "Anja Taylor",
         "school": "Pemberton",
-        "points": 335
+        "points": 425
       },
       {
-        "name": "Annelise Cliburn",
-        "school": "Argyle",
-        "points": 330
+        "name": "Maeve Lazar-Barry",
+        "school": "Howe Sound",
+        "points": 373
       },
       {
-        "name": "Sophia Judson",
-        "school": "Argyle",
-        "points": 313
+        "name": "Abby Simpson ",
+        "school": "Howe Sound",
+        "points": 345
       }
     ],
     "Sr Boys": [
@@ -230,61 +230,66 @@
       {
         "name": "Easton Hestler",
         "school": "Handsworth",
-        "points": 388
+        "points": 420
       },
       {
         "name": "James Pinfold",
         "school": "Carson",
-        "points": 360
+        "points": 411
+      },
+      {
+        "name": "Oscar Tarling",
+        "school": "Pemberton",
+        "points": 377
       },
       {
         "name": "Max Rinzema",
         "school": "Handsworth",
         "points": 340
-      },
-      {
-        "name": "Oliver Koch",
-        "school": "Whistler",
-        "points": 300
       }
     ],
     "Sr Girls": [
       {
         "name": "Emelie Kvick",
         "school": "Windsor",
-        "points": 470
+        "points": 485
       },
       {
         "name": "Elia Comeau",
         "school": "Handsworth",
-        "points": 425
+        "points": 455
+      },
+      {
+        "name": "Lily McGowan",
+        "school": "Whistler",
+        "points": 415
+      },
+      {
+        "name": "Anna Selecka",
+        "school": "Handsworth",
+        "points": 405
       },
       {
         "name": "Isla Gibson",
         "school": "Windsor",
         "points": 395
-      },
-      {
-        "name": "Lily McGowan",
-        "school": "Whistler",
-        "points": 378
-      },
-      {
-        "name": "Anna Selecka",
-        "school": "Handsworth",
-        "points": 340
       }
     ],
     "Bant Girls": [
       {
         "name": "Indy Tomic",
         "school": "STA",
-        "points": 400
+        "points": 500
       },
       {
         "name": "Marie Crowell",
         "school": "Pemberton",
-        "points": 365
+        "points": 455
+      },
+      {
+        "name": "Olivia Shin",
+        "school": "STA",
+        "points": 415
       },
       {
         "name": "Mackenzie Velaniskis",
@@ -292,14 +297,9 @@
         "points": 335
       },
       {
-        "name": "Olivia Shin",
-        "school": "STA",
-        "points": 330
-      },
-      {
         "name": "Piper Fear",
         "school": "Pemberton",
-        "points": 225
+        "points": 305
       }
     ]
   }
