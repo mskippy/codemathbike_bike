@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("../data/results.json")
+  fetch(`data/results.json?v=${Date.now()}`)
     .then((res) => res.json())
     .then((data) => {
       const teamDiv = document.getElementById("team-results");

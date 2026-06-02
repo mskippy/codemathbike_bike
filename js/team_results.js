@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const divisionSection = document.getElementById("division-results");
 
-  fetch("../data/team_results.json")
+  fetch(`data/team_results.json?v=${Date.now()}`)
     .then((response) => response.json())
     .then((data) => {
       divisionOrder.forEach((division) => {
