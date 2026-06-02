@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Bant Girls"
   ];
 
-  fetch(`data/division_results.json?v=${Date.now()}`)
+  fetch(`/data/division_results.json?v=${Date.now()}`)
     .then((res) => {
       if (!res.ok) {
         throw new Error(`HTTP ${res.status} - could not load division_results.json`);
