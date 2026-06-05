@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const select = document.getElementById("school-select");
   const container = document.getElementById("school-results-container");
 
-  fetch(`data/school_results.json?v=${Date.now()}`)
+  fetch(`/data/school_results.json?v=${Date.now()}`)
     .then((res) => res.json())
     .then((data) => {
       const schools = Object.keys(data).sort();

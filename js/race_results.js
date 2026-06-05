@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("race-results-container");
   const pageLinks = document.getElementById("race-page-links");
 
-  fetch(`data/race_results.json?v=${Date.now()}`)
+  fetch(`/data/race_results.json?v=${Date.now()}`)
     .then((response) => response.json())
     .then((data) => {
       Object.keys(data).forEach((raceKey) => {
